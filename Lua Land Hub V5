@@ -164,6 +164,7 @@ MainTab:CreateButton({
     loadScript("https://pastefy.app/8lqvBFdm/raw")
     end
 })
+
 MainTab:CreateButton({
     Name = "Build a Boat for Treasure",
     Callback = function()
@@ -174,8 +175,7 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "Washiez Car Wash",
     Callback = function()
-    
-loadScript('https://washiez-script.pages.dev/new.lua')
+        loadScript('https://washiez-script.pages.dev/new.lua')
     end
 })  
 
@@ -266,88 +266,77 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "Build a Brainrot",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/1-16AM/xena/refs/heads/main/main.lua")
+        loadScript("https://raw.githubusercontent.com/1-16AM/xena/refs/heads/main/main.lua")
     end
 })
 
 MainTab:CreateButton({
     Name = "My Singing Brainrot Free Gamepass",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/gim/refs/heads/main/fas"))()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/gim/refs/heads/main/fas")
     end
 })
 
 MainTab:CreateButton({
     Name = "Anime Boss Raid",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/OhhMyGehlee/red/refs/heads/main/bus")
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/red/refs/heads/main/bus")
     end
 })
 
 MainTab:CreateButton({
     Name = "Grimoires Legacy",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/OhhMyGehlee/more/refs/heads/main/fin")
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/more/refs/heads/main/fin")
     end
 })
 
 MainTab:CreateButton({
     Name = "Anime Storm Simulator",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sto/refs/heads/main/rm")
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sto/refs/heads/main/rm")
     end
 })
 
 MainTab:CreateButton({
     Name = "Anime Troll Tower",
     Callback = function()
-
-loadScript("https://github.com/contateste8/FEGojoSkill/raw/refs/heads/main/Protected_7021198198640480.lua.txt")
+        loadScript("https://github.com/contateste8/FEGojoSkill/raw/refs/heads/main/Protected_7021198198640480.lua.txt")
     end
 })
 
 MainTab:CreateButton({
     Name = "IQ Test",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GuyOnPhilippines/Roblox/refs/heads/Scripts/IQ%20Test%20%F0%9F%A7%A0%20Gui.txt",true))()
+        loadScript("https://raw.githubusercontent.com/GuyOnPhilippines/Roblox/refs/heads/Scripts/IQ%20Test%20%F0%9F%A7%A0%20Gui.txt",true)
     end
 })
 
 MainTab:CreateButton({
     Name = "Try to Die",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GuyOnPhilippines/Roblox/refs/heads/Scripts/Try%20To%20Die%20Gui.txt"))()
+        loadScript("https://raw.githubusercontent.com/GuyOnPhilippines/Roblox/refs/heads/Scripts/Try%20To%20Die%20Gui.txt")
     end
 })
 
 MainTab:CreateButton({
     Name = "Blue Heater 2",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/hea/refs/heads/main/t"))()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/hea/refs/heads/main/t")
     end
 })
 
 MainTab:CreateButton({
     Name = "Anime Rising",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/OhhMyGehlee/rise/refs/heads/main/a")
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/rise/refs/heads/main/a")
     end
 })
 
 MainTab:CreateButton({
     Name = "Anime Eternal",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/OhhMyGehlee/et/refs/heads/main/er")
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/et/refs/heads/main/er")
     end
 })
 
@@ -544,16 +533,14 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "Grow A Garden (KEYLESS)",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/shvl00/shvled/refs/heads/main/l04d3r.bf")
+        loadScript("https://raw.githubusercontent.com/shvl00/shvled/refs/heads/main/l04d3r.bf")
     end
 })
 
 MainTab:CreateButton({
     Name = "Grow A Garden (KEY SYSTEM)",
     Callback = function()
-
-loadScript("https://api.luarmor.net/files/v3/loaders/d5ed1fbd4301b1d18d75153c5b47181d.lua")
+        loadScript("https://api.luarmor.net/files/v3/loaders/d5ed1fbd4301b1d18d75153c5b47181d.lua")
     end
 })
 
@@ -982,18 +969,14 @@ Main2Tab:CreateButton({
 Main2Tab:CreateButton({
     Name = "Tp Tool",
     Callback = function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Teleport-tool-7095"))()
-
+        loadScript("https://rawscripts.net/raw/Universal-Script-Teleport-tool-7095")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Vehicle Fly",
     Callback = function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20Fe%20Vehicle%20Fly%20GUI%20script'))()
-
+        loadScript('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20Fe%20Vehicle%20Fly%20GUI%20script')
    end
 })
 
@@ -1001,7 +984,7 @@ Main2Tab:CreateButton({
     Name = "Calculator",
     Callback = function()
     
-loadstring(game:HttpGet("https://pastebin.com/raw/ZV9ZTwq6"))()
+loadScript("https://pastebin.com/raw/ZV9ZTwq6")
 
    end
 })
@@ -1036,16 +1019,14 @@ loadstring(game:HttpGet(('https://pastefy.app/'..'aV9OfBP4'..'/raw'),true))()
 Main2Tab:CreateButton({
     Name = "Universal Skybox,Decal & Particles",
     Callback = function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/xgSsjCLt"))()
-
+        loadScript("https://pastebin.com/raw/xgSsjCLt")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Animation Gui [FE]",
     Callback = function()
-
+        
 loadstring(game:HttpGet("https://pastebin.com/raw/vezRxWTi"))()
 
    end
@@ -1063,21 +1044,27 @@ loadstring(Game:GetObjects("rbxassetid://1255908305")[1].Source)()
 Main2Tab:CreateButton({
     Name = "AutoClicker Gui",
     Callback = function()
-        loadScript("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Server Hop",
     Callback = function()
-        loadScript("https://gist.githubusercontent.com/5f76e62e22b285e966ef0c4a80a78ee7/raw/cbcfca3a0a895b6769b204c0397c5564e870b373/Server%2520Hop%2520Script")
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/5f76e62e22b285e966ef0c4a80a78ee7/raw/cbcfca3a0a895b6769b204c0397c5564e870b373/Server%2520Hop%2520Script"))()
+
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Rejoin",
     Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/f586ef696195d1ea0fd84ef061e0a1ec/raw/61936073bf083b1238282d990ae374d27995df98/Rejoin%2520Script")
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/f586ef696195d1ea0fd84ef061e0a1ec/raw/61936073bf083b1238282d990ae374d27995df98/Rejoin%2520Script"))()
+
     end
 })
 
@@ -1164,14 +1151,17 @@ end
 Main2Tab:CreateButton({
     Name = "Dark Dex",
     Callback = function()
-        loadScript("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua"))()
+
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Infinite Jump",
     Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%25E2%259A%25A1%2520Infinite%2520Jump%2520Gui%2520%25E2%259A%25A1")
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%25E2%259A%25A1%2520Infinite%2520Jump%2520Gui%2520%25E2%259A%25A1"))()
     end
 })
 
