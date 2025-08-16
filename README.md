@@ -37,6 +37,14 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
+    Name = "Bloxfruit",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/Corrupt2625/pjv/main/000000018.lua")
+    end
+})
+    
+MainTab:CreateButton({
     Name = "Murderer Vs Sheriff Duels",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/alan11ago/Hub/main/ImpHub.lua")
@@ -85,11 +93,25 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
+    Name = "Acid Escape",
+    Callback = function()
+    loadScript("https://pastefy.app/8lqvBFdm/raw")
+    end
+})
+MainTab:CreateButton({
     Name = "Build a Boat for Treasure",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/102KIRA/Best-Babft-script/main/Actually%20Best%20babft%20script")
     end
 })
+
+MainTab:CreateButton({
+    Name = "Washiez Car Wash",
+    Callback = function()
+    
+loadScript('https://washiez-script.pages.dev/new.lua')
+    end
+})  
 
 MainTab:CreateButton({
     Name = "Mega Hide & Seek",
@@ -127,9 +149,9 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Natural Disaster Survival (WORKS IN THIS GAME)🌪️",
+    Name = "Natural Disaster Survival",
     Callback = function()
-        loadScript("https://raw.githubusercontent.com/Seven7-lua/Roblox/refs/heads/main/Scripts/Games/Natural-Disaster-Survival.lua")
+        loadScript("https://pastebin.com/raw/eiZfJ6Zy")
     end
 })
 
@@ -153,6 +175,7 @@ MainTab:CreateButton({
         loadScript("https://raw.githubusercontent.com/PreppyHub/PreppyHub/main/PreppyHub")
     end
 })
+
 MainTab:CreateButton({
     Name = "Brookhaven RP",
     Callback = function()
@@ -700,84 +723,84 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Anime Destiny Simulator 🎯",
+    Name = "Anime Destiny Simulator ",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/TY/main/Mob")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Hunters Era 🧭",
+    Name = "Hunters Era ",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/HE/main/SolaraMobile")
     end
 })
 
 MainTab:CreateButton({
-    Name = "[NEW] Anime Heroes Tycoon 🏰",
+    Name = "[NEW] Anime Heroes Tycoon",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/892/main/AH")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Eat The World 🌍",
+    Name = "Eat The World",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ETW/main/was")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Spin For Free Robux 💸",
+    Name = "Spin For Free Robux",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Spin-For-Free/main/b")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Cursed Area 🕳️",
+    Name = "Cursed Area",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sdawd6/main/90")
     end
 })
 
 MainTab:CreateButton({
-    Name = "AllBlox Battles 🧃",
+    Name = "AllBlox Battles",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ABB/main/Solara/Mobile")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Anime Punching Simulator 2 👊",
+    Name = "Anime Punching Simulator 2",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/89/main/24")
     end
 })
 
 MainTab:CreateButton({
-    Name = "+1 Blade Slayer 🗡️",
+    Name = "+1 Blade Slayer",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/dsaw2/main/asdwa")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Anime Speed Race 🏁",
+    Name = "Anime Speed Race",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/09op/main/kop2")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Egg Empire 🥚",
+    Name = "Egg Empire",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/yup/main/pire")
     end
 })
 
 MainTab:CreateButton({
-    Name = "Horror RNG 😱",
+    Name = "Horror RNG",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/90po/main/kop90")
     end
