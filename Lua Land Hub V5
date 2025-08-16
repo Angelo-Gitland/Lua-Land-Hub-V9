@@ -2100,3 +2100,23 @@ loadScript("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-
 Main5Tab:CreateButton({
     Name = "Rosys Backdoor Scanner",
     Callback = function()
+
+loadScript("https://pastebin.com/raw/dptQMT9x")
+   end
+})
+
+Main5Tab:CreateButton({
+    Name = "Jalon's Backdoor Scanner",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/jLn0n/scripts/main/backdoor-executor/backdoor-executor.lua")
+   end
+})
+
+Main4Tab:CreateButton({
+    Name = "Backdoor Scanner SS",
+    Callback = function()
+    
+loadScript("https://protected-roblox-scripts.onrender.com/e199278d9c668d20a456f327c7045641")
+   end
+})
+
