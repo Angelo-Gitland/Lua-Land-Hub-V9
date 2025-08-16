@@ -1961,7 +1961,7 @@ local function loadScript(url)
     end
 end
 
-Main4Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Lalol Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script")
