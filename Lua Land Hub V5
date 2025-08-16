@@ -2021,44 +2021,78 @@ local function loadScript(url)
 end
 
 Main4Tab:CreateButton({
-    Name = "Sword 🗡️",
+    Name = "Sword",
     Callback = function()
         loadScript("https://pastebin.com/raw/r7TP8eqw")
     end
 })
 
 Main4Tab:CreateButton({
-    Name = "Grab Knife 🔪",
+    Name = "Grab Knife",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753")
-    loadScript("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt")
     end
 })
 
 Main4Tab:CreateButton({
-    Name = "Tool Giver 🧰",
+    Name = "Tool Giver",
     Callback = function()
         loadScript("https://pastefy.app/qpbQo0lr/raw")
     end
 })
 
 Main4Tab:CreateButton({
-    Name = "Gear Giver 🎮",
+    Name = "Gear Giver",
     Callback = function()
         loadScript("https://pastebin.com/raw/Dhgnt7hi")
     end
 })
 
 Main4Tab:CreateButton({
-    Name = "Get All Gears 🧲",
+    Name = "Get All Gears",
     Callback = function()
         loadScript("https://pastefy.app/VYIAk3o1/raw")
     end
 })
 
 Main4Tab:CreateButton({
-    Name = "Gear Giver 2 ⚙️",
+    Name = "Gear Giver 2",
     Callback = function()
         loadScript("https://pastebin.com/raw/AZVi2tuK")
+    end
+})
+
+local CreditsTab = Window:CreateTab("CREDITS/SUPPORT", 4483362458)
+
+local CreditsParagraph = CreditsTab:CreateParagraph({
+    Title = "❣️ Credits & Appreciation ❣️",
+    Content = [[
+Script Made By: ❣️ Angelo's Scripts (YOUTUBE) ❣️
+Tester: ❣️ Eric_3337 (YOUTUBE) ❣️
+Helper: ❣️ Bromzekie ❣️
+Raw By: ❣️ Angelo's Scripts (YOUTUBE) ❣️
+
+❣️ Big Thanks ❣️
+@Eric_3337 (YOUTUBE) 🏝️
+@Bromzekie 🏝️
+@CrazyChessScript (YOUTUBE) 🏝️
+@James (YOUTUBE) 🏝️
+
+🏝️ Join Our Community 🏝️  
+Click the button below to copy the server link and connect with us!
+
+🔗 Discord Link: [https://discord.gg/RxcX9DExUE]
+]]
+})
+
+CreditsTab:CreateButton({
+    Name = "🏝️ COPY DISCORD LINK 🏝️",
+    Callback = function()
+        setclipboard("https://discord.gg/RxcX9DExUE")
+        Rayfield:Notify({
+            Title = "📋 Copied!",
+            Content = "🏝️COPIED TO CLIPBOARD!🏝️",
+            Duration = 6
+        })
     end
 })
