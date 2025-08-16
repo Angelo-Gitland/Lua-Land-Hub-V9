@@ -39,74 +39,56 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "Azure Latch",
     Callback = function()
-   loadScript("https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua")
+        loadScript("https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua")
     end
 })
 
 MainTab:CreateButton({
     Name = "Invisible Hide & Seek",
     Callback = function()
-    loadScript("https://raw.githubusercontent.com/KAJUU490/c29/refs/heads/main/jumapell_new")
+        loadScript("https://raw.githubusercontent.com/KAJUU490/c29/refs/heads/main/jumapell_new")
     end
 })
 
 MainTab:CreateButton({
     Name = "Trap & Bait",
     Callback = function()
-    loadScript("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua")
+        loadScript("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua")
     end
 })
 
 MainTab:CreateButton({
     Name = "Vox Seas",
     Callback = function()
-   loadScript("https://raw.githubusercontent.com/OhhMyGehlee/vo/refs/heads/main/x")
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/vo/refs/heads/main/x")
     end
 })
 
 MainTab:CreateButton({
     Name = "Arise Shadow Hunt",
     Callback = function()
-  loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a")
-    end
-})
-
-MainTab:CreateButton({
-    Name = "Free Draw",
-    Callback = function()
-
-   local Settings = {
-    SpamAmount = 40000, -- Amount of lines to spam
-    Radius = 100, -- Max radius of the random positions
-    Color = Color3.new(1,1,1), -- Color of the lines
-    Transparency = 0.9999, -- Transparency of the lines
-    Thickness = 0.05, -- Thickness of the lines
-    AntiLag = true -- It will delete all your art to prevent from lag
-}
-loadScript("https://raw.githubusercontent.com/NaikoScript/Simple-Good-Scripts/main/FreeDraw"))(Settings)
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a")
     end
 })
 
 MainTab:CreateButton({
     Name = "Climb & Slide",
     Callback = function()
-  loadScript("https://raw.githubusercontent.com/ecrxks273/climb-and-slide/refs/heads/main/climb%20and%20slide")
+        loadScript("https://raw.githubusercontent.com/ecrxks273/climb-and-slide/refs/heads/main/climb%20and%20slide")
     end
 })
     
 MainTab:CreateButton({
     Name = "Steal a K-Pop Demon Hunter",
     Callback = function()
-
-loadScript("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua")
+        loadScript("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua")
     end
 })
     
 MainTab:CreateButton({
     Name = "Bloxfruit",
     Callback = function()
-
-loadScript("https://raw.githubusercontent.com/Corrupt2625/pjv/main/000000018.lua")
+        loadScript("https://raw.githubusercontent.com/Corrupt2625/pjv/main/000000018.lua")
     end
 })
     
@@ -130,6 +112,7 @@ MainTab:CreateButton({
         loadScript("https://raw.githubusercontent.com/perfectusmim1/script/main/crossover")
     end
 })
+
 MainTab:CreateButton({
     Name = "Trench War",
     Callback = function()
@@ -161,7 +144,7 @@ MainTab:CreateButton({
 MainTab:CreateButton({
     Name = "Acid Escape",
     Callback = function()
-    loadScript("https://pastefy.app/8lqvBFdm/raw")
+        loadScript("https://pastefy.app/8lqvBFdm/raw")
     end
 })
 
@@ -983,36 +966,21 @@ Main2Tab:CreateButton({
 Main2Tab:CreateButton({
     Name = "Calculator",
     Callback = function()
-    
-loadScript("https://pastebin.com/raw/ZV9ZTwq6")
-
+        loadScript("https://pastebin.com/raw/ZV9ZTwq6")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Arceus Aimbot Mobile",
     Callback = function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
-
+        loadScript("https://pastebin.com/raw/1Gp9c57U")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "g00by Gui V8",
     Callback = function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-G00by-GUI-v8-10301", true))()
-
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Invisible Mobile Scrip",
-    Callback = function()
-
-loadstring(game:HttpGet(('https://pastefy.app/'..'aV9OfBP4'..'/raw'),true))()
-
+        loadScript("https://rawscripts.net/raw/Universal-Script-G00by-GUI-v8-10301", true)
    end
 })
 
@@ -1026,45 +994,28 @@ Main2Tab:CreateButton({
 Main2Tab:CreateButton({
     Name = "Animation Gui [FE]",
     Callback = function()
-        
-loadstring(game:HttpGet("https://pastebin.com/raw/vezRxWTi"))()
-
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Arosia Gui [FE]",
-    Callback = function()
-
-loadstring(Game:GetObjects("rbxassetid://1255908305")[1].Source)()
-
+        loadScript("https://pastebin.com/raw/vezRxWTi")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "AutoClicker Gui",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
-
+        loadScript("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202")
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Server Hop",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/5f76e62e22b285e966ef0c4a80a78ee7/raw/cbcfca3a0a895b6769b204c0397c5564e870b373/Server%2520Hop%2520Script"))()
-
+        loadScript("https://gist.githubusercontent.com/5f76e62e22b285e966ef0c4a80a78ee7/raw/cbcfca3a0a895b6769b204c0397c5564e870b373/Server%2520Hop%2520Script")
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Rejoin",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/f586ef696195d1ea0fd84ef061e0a1ec/raw/61936073bf083b1238282d990ae374d27995df98/Rejoin%2520Script"))()
-
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/f586ef696195d1ea0fd84ef061e0a1ec/raw/61936073bf083b1238282d990ae374d27995df98/Rejoin%2520Script")
     end
 })
 
@@ -1151,98 +1102,70 @@ end
 Main2Tab:CreateButton({
     Name = "Dark Dex",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua"))()
-
+        loadScript("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua")
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Infinite Jump",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%25E2%259A%25A1%2520Infinite%2520Jump%2520Gui%2520%25E2%259A%25A1"))()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%25E2%259A%25A1%2520Infinite%2520Jump%2520Gui%2520%25E2%259A%25A1")
     end
 })
 
 Main2Tab:CreateButton({
     Name = "Yeet Gui",
     Callback = function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-yeet-gui-47961"))()
-
+        loadScript("https://rawscripts.net/raw/Universal-Script-yeet-gui-47961")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Robanik Panel",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/Robanik-Panel-1.2/refs/heads/main/1.2"))()
-
+        loadScript("https://raw.githubusercontent.com/Robanik/Robanik-Panel-1.2/refs/heads/main/1.2")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Spectate Gui",
     Callback = function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-spectate-GUI-chatgpt-made-48001"))()
-
+        loadScript("https://rawscripts.net/raw/Universal-Script-spectate-GUI-chatgpt-made-48001")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Esp Gui",
     Callback = function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-ESP-any-game-47981"))()
-
+        loadScript("https://rawscripts.net/raw/Universal-Script-ESP-any-game-47981")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "r3 Gui",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/R3LIST/r3gui/main/main.lua"))()
-
+        loadScript("https://raw.githubusercontent.com/R3LIST/r3gui/main/main.lua")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "SSTICKDUD Gui",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/61301a7d73b79da32642cf9ef93b2437/raw/3dd135b6921c0b5cb91c04c624e193f7de8f7dfe/SSTICKDUD%2520GUI"))()
-
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Astrava Gui [FE]",
-    Callback = function()
-
-loadstring(game:GetObjects("rbxassetid://1468845733")[1].Source)()
-
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/61301a7d73b79da32642cf9ef93b2437/raw/3dd135b6921c0b5cb91c04c624e193f7de8f7dfe/SSTICKDUD%2520GUI")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Egor",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DROID-cell-sys/ANTI-UTTP-SCRIPTT/refs/heads/main/EGOR%20SCRIPT%20BY%20ANTI-UTTP"))()
-
+        loadScript("https://raw.githubusercontent.com/DROID-cell-sys/ANTI-UTTP-SCRIPTT/refs/heads/main/EGOR%20SCRIPT%20BY%20ANTI-UTTP")
    end
 })
 
 Main2Tab:CreateButton({
     Name = "Lua Land Executor",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/b37b1a417a73435e7262dddc0b84903c/raw/765ab79d0f120301d8ebe0bc804b9dabfa1040c2/Lua%2520Land%2520Hub%2520Executor%2520Script"))()
-
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/b37b1a417a73435e7262dddc0b84903c/raw/765ab79d0f120301d8ebe0bc804b9dabfa1040c2/Lua%2520Land%2520Hub%2520Executor%2520Script")
    end
 })
 
@@ -1379,84 +1302,84 @@ Main3Tab:CreateButton({
 Main3Tab:CreateButton({
     Name = "VirusPirusDirus Hub",
     Callback = function()
-  loadScript("https://raw.githubusercontent.com/InnocentViru/VirusPirusDirus-Script-Hub/refs/heads/main/VirusPirusDirus%20Script%20Hub")   
+        loadScript("https://raw.githubusercontent.com/InnocentViru/VirusPirusDirus-Script-Hub/refs/heads/main/VirusPirusDirus%20Script%20Hub")   
     end
 })
 
 Main3Tab:CreateButton({
     Name = "Hive Hub",
     Callback = function()
-  loadScript("https://raw.githubusercontent.com/iamnotadingus/Hive-Hub/refs/heads/main/RELEASED",true)
+        loadScript("https://raw.githubusercontent.com/iamnotadingus/Hive-Hub/refs/heads/main/RELEASED",true)
     end
 })
 
 Main3Tab:CreateButton({
     Name = "Bypasser Hub",
     Callback = function()
-  loadScript("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\105\86\103\118\120\72\65\34\41\41\40\41\59\10")
+        loadScript("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\105\86\103\118\120\72\65\34\41\41\40\41\59\10")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Bandz HubV1",
     Callback = function()
-   loadScript("https://pastebin.com/raw/nbnriwbq")
+        loadScript("https://pastebin.com/raw/nbnriwbq")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Perfect Hub",
     Callback = function()
-  loadScript("https://raw.githubusercontent.com/luwriy/Hub/refs/heads/main/Main")
+        loadScript("https://raw.githubusercontent.com/luwriy/Hub/refs/heads/main/Main")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Boundless Hub",
     Callback = function()
- loadScript("https://raw.githubusercontent.com/Wowspws/Boundless/refs/heads/main/Protected_5439528335744854.txt")
+        loadScript("https://raw.githubusercontent.com/Wowspws/Boundless/refs/heads/main/Protected_5439528335744854.txt")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Lomu Hub",
     Callback = function()
- loadScript("https://raw.githubusercontent.com/Whoisgrace0/Main/main/LOL.lua",true)
+        loadScript("https://raw.githubusercontent.com/Whoisgrace0/Main/main/LOL.lua",true)
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Lukas Hub",
     Callback = function()
-  loadScript("https://raw.githubusercontent.com/giogio11223/stogenhub/refs/heads/main/release",true)
+        loadScript("https://raw.githubusercontent.com/giogio11223/stogenhub/refs/heads/main/release",true)
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Desire Hub",
     Callback = function()
- loadScript("https://raw.githubusercontent.com/welomenchaina/Desire-s/refs/heads/main/desire%20hub%20rules",true)
+        loadScript("https://raw.githubusercontent.com/welomenchaina/Desire-s/refs/heads/main/desire%20hub%20rules",true)
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Shadow Hub",
     Callback = function()
- loadScript("https://raw.githubusercontent.com/TimShadow1/ShadowHUB/refs/heads/main/GAG.lua")
+        loadScript("https://raw.githubusercontent.com/TimShadow1/ShadowHUB/refs/heads/main/GAG.lua")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Forsakation Hub",
     Callback = function()
- loadScript("https://api.luarmor.net/files/v3/loaders/d1226ca454068d9251732f34884a375e.lua")
+        loadScript("https://api.luarmor.net/files/v3/loaders/d1226ca454068d9251732f34884a375e.lua")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Syla Hub",
     Callback = function()
-    loadScript("https://raw.githubusercontent.com/SylaHub/Syla-Hub/refs/heads/main/Loader")
+        loadScript("https://raw.githubusercontent.com/SylaHub/Syla-Hub/refs/heads/main/Loader")
    end
 })
 
@@ -1700,171 +1623,133 @@ Main3Tab:CreateButton({
 Main3Tab:CreateButton({
     Name = "E Hub Universal",
     Callback = function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/8DLG71RE"))()
-
+        loadScript("https://pastebin.com/raw/8DLG71RE")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Capy Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MSTTOPPER/Scripts/refs/heads/main/CapyHub"))()
-
+        loadScript("https://raw.githubusercontent.com/MSTTOPPER/Scripts/refs/heads/main/CapyHub")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Insanity.xyz Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jaysterrz/insanity.xyz/refs/heads/main/InsanityLoader.lua"))()
-
+        loadScript("https://raw.githubusercontent.com/jaysterrz/insanity.xyz/refs/heads/main/InsanityLoader.lua")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "f3x Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-cheezy2l-f3x-made-by-cheezly2l-and-g00byd0lan-and-tehpwnzer-10416", true))()
-
+        loadScript("https://rawscripts.net/raw/Universal-Script-cheezy2l-f3x-made-by-cheezly2l-and-g00byd0lan-and-tehpwnzer-10416", true)
    end
 })
 
 Main3Tab:CreateButton({
     Name = "100+ Animation Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/47a075d24e008e76c9e7c0725f784504/raw/612f1193fa9ff29a8a8e7527c0a6aa79ae09b301/Eazvy%2520Hub%2520100+%2520Animation%2520Hub"))()
-
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/47a075d24e008e76c9e7c0725f784504/raw/612f1193fa9ff29a8a8e7527c0a6aa79ae09b301/Eazvy%2520Hub%2520100+%2520Animation%2520Hub")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Zonor Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aronn5/zornor-hub/refs/heads/main/zornor.lua"))()
-
+        loadScript("https://raw.githubusercontent.com/aronn5/zornor-hub/refs/heads/main/zornor.lua")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Seth Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXSethX/Hub-Scripts-/refs/heads/main/Hub"))()
-
+        loadScript("https://raw.githubusercontent.com/TheXSethX/Hub-Scripts-/refs/heads/main/Hub")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Souls Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/SPQT6v5J"))()
-
+        loadScript("https://pastebin.com/raw/SPQT6v5J")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "KGuestCheatsJ Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KGuestCheatsJReal/ComeBack/refs/heads/main/Universal"))()
-
+        loadScript("https://raw.githubusercontent.com/KGuestCheatsJReal/ComeBack/refs/heads/main/Universal")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Krt Hub V3",
     Callback = function()
-
-loadstring(game:HttpGet("https://pastefy.app/qvHKHQRu/raw"))()
-
+        loadScript("https://pastefy.app/qvHKHQRu/raw")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Nova Hub",
     Callback = function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/D3lt5/ukdow/refs/heads/main/OfficialNova'))()
-
+        loadScript('https://raw.githubusercontent.com/D3lt5/ukdow/refs/heads/main/OfficialNova')
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Lan Hub (Keyless)",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Wrate/LanHub/main/LanHubLoader"))()
-
+        loadScript("https://raw.githubusercontent.com/Wrate/LanHub/main/LanHubLoader")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Xeric Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xeric-rblx/Loader/refs/heads/main/Loader"))()
-
+        loadScript("https://raw.githubusercontent.com/xeric-rblx/Loader/refs/heads/main/Loader")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Galaxy Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GalaxyStudio646/Galaxy-Hub/refs/heads/main/Universal/GalaxyHub"))()
-
+        loadScript("https://raw.githubusercontent.com/GalaxyStudio646/Galaxy-Hub/refs/heads/main/Universal/GalaxyHub")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Acro Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Dan7anaan/2a43ab4365ee1de7aadef9d58800b00f/raw/ffa3d2bb91b9389139dd25ba3f40f33b13cd7fbf/gistfile1.txt"))()
-
+        loadScript("https://gist.githubusercontent.com/Dan7anaan/2a43ab4365ee1de7aadef9d58800b00f/raw/ffa3d2bb91b9389139dd25ba3f40f33b13cd7fbf/gistfile1.txt")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Junix Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/junixaldrblxscripts/JunixHubScripts/refs/heads/main/main.lua"))()
-
+        loadScript("https://raw.githubusercontent.com/junixaldrblxscripts/JunixHubScripts/refs/heads/main/main.lua")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "IdiotHub (Keyless)",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IdiotHub/Scripts/main/Loader"))()
-
+        loadScript("https://raw.githubusercontent.com/IdiotHub/Scripts/main/Loader")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Omen Hub",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mezzopera/Omen-Hub/main/omen_hub.lua"))()
-
+        loadScript("https://raw.githubusercontent.com/mezzopera/Omen-Hub/main/omen_hub.lua")
    end
 })
 
 Main3Tab:CreateButton({
     Name = "Oasis Hub",
     Callback = function()
-
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/bruvzz/oasishub/main/script"))()
-
+        loadScript("https://raw.githubusercontent.com/bruvzz/oasishub/main/script")
    end
 })
 
@@ -1998,9 +1883,7 @@ Main3Tab:CreateButton({
 Main3Tab:CreateButton({
     Name = "Angel Hub",
     Callback = function()
-       
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Fentdealer47/angelshub/refs/heads/main/main.lua'))()
-
+        loadScript('https://raw.githubusercontent.com/Fentdealer47/angelshub/refs/heads/main/main.lua')
    end
 })
 
