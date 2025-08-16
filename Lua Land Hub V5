@@ -1,20 +1,23 @@
- Rayfield = loadstring(game:HttpGet(
-     "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
+ -- 🌴 Lua Land Hub The Best Script.Lol
+local Rayfield = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
 ))()
 
 local Player = game.Players.LocalPlayer
 
--- Made By Angelo!👍
+-- Made By Angelo! 👍
 local Window = Rayfield:CreateWindow({
-    Name = "🏝️Lua Land Hub | Ultimate🏝️",
+    Name = "🏝️Lua Land Hub V5🏝️", -- 🏆 Award icon in title
+    Icon = "award", -- Shows trophy badge in topbar
     LoadingTitle = "Lua Land Hub Ultimate Loading...",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
 })
+
 local MainTab = Window:CreateTab("SCRIPT GAMES", 4483362458)
 
--- 🧩 Safe Loader Function
+-- 🧩 Safe Loader I dont Func
 local function loadScript(url)
     local ok, err = pcall(function()
         local src = game:HttpGet(url)
@@ -29,6 +32,7 @@ local function loadScript(url)
         })
     end
 end
+
 MainTab:CreateButton({
     Name = "Bloxburg",
     Callback = function()
