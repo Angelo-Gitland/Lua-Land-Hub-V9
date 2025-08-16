@@ -1,2 +1,1383 @@
-# Lua-Land-Hub-V5
-iOS Now Supported
+ Rayfield = loadstring(game:HttpGet(
+     "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
+))()
+
+local Player = game.Players.LocalPlayer
+
+-- Made By Angelo!👍
+local Window = Rayfield:CreateWindow({
+    Name = "🏝️Lua Land Hub | Ultimate🏝️",
+    LoadingTitle = "Lua Land Hub Ultimate Loading...",
+    LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
+    ConfigurationSaving = { Enabled = false },
+    KeySystem = false
+})
+local MainTab = Window:CreateTab("SCRIPT GAMES", 4483362458)
+
+-- 🧩 Safe Loader Function
+local function loadScript(url)
+    local ok, err = pcall(function()
+        local src = game:HttpGet(url)
+        local fn = assert(loadstring(src), "loadstring failed")
+        fn()
+    end)
+    if not ok then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(err),
+            Duration = 6
+        })
+    end
+end
+MainTab:CreateButton({
+    Name = "Bloxburg",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/JonnyCheeser/rbw4/main/JonnyCheeseHub")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Murderer Vs Sheriff Duels",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/alan11ago/Hub/main/ImpHub.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Toilet Tower Defense",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/LOLking123456/Toilet6/main/Tower5")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Arise CrossOver",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/perfectusmim1/script/main/crossover")
+    end
+})
+MainTab:CreateButton({
+    Name = "Trench War",
+    Callback = function()
+        loadScript("https://exploitingis.fun/loader")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Climb & Jump Tower",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/gumanba/Scripts/main/ClimbandJump")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Tower of Jump (FREE HALOS)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/insanedude59/TowerOfJump/main/OpenSource")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Tower of Hell",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Build a Boat for Treasure",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/102KIRA/Best-Babft-script/main/Actually%20Best%20babft%20script")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Mega Hide & Seek",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/F4xYCF5v")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hide & Seek Supreme",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/ghostapustaja/legionhub/main/hideandseekscript.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Cheese Escape",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Nikita365/Cheese-Escape/main/Nikita")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Gacha Online RP",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GitHubTestei/GACHA-ONLINE-GUI/main/Gacha%20Online%20Troll%20GUI%20v1.0.0")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Secret Killer",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/07bc29655a4e7c884426aab3deedf583/raw/39365d494897e00561a544a611394bcfc4c42282/Lua%2520Land%2520Hub%2520Secret%2520Killer%25F0%259F%2591%258D")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Natural Disaster Survival (WORKS IN THIS GAME)🌪️",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Seven7-lua/Roblox/refs/heads/main/Scripts/Games/Natural-Disaster-Survival.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Dig It",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/main/loader")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Be NPC or Die",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/checkurasshole/Script/main/IQ")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Spelling Bee",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/PreppyHub/PreppyHub/main/PreppyHub")
+    end
+})
+MainTab:CreateButton({
+    Name = "Brookhaven RP",
+    Callback = function()
+        loadScript("https://glot.io/snippets/gzrux646yj/raw/main.ts")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Blade Ball",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/SoyAdriYT/AstroX/main/Loader.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Work At Pizza Place",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/welomenchaina/Loader/main/ScriptLoader")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Build a Brainrot",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/1-16AM/xena/refs/heads/main/main.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "My Singing Brainrot Free Gamepass",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/gim/refs/heads/main/fas"))()
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Boss Raid",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/OhhMyGehlee/red/refs/heads/main/bus")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Grimoires Legacy",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/OhhMyGehlee/more/refs/heads/main/fin")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Storm Simulator",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sto/refs/heads/main/rm")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Troll Tower",
+    Callback = function()
+
+loadScript("https://github.com/contateste8/FEGojoSkill/raw/refs/heads/main/Protected_7021198198640480.lua.txt")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "IQ Test",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GuyOnPhilippines/Roblox/refs/heads/Scripts/IQ%20Test%20%F0%9F%A7%A0%20Gui.txt",true))()
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Try to Die",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GuyOnPhilippines/Roblox/refs/heads/Scripts/Try%20To%20Die%20Gui.txt"))()
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Blue Heater 2",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/hea/refs/heads/main/t"))()
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Rising",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/OhhMyGehlee/rise/refs/heads/main/a")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Eternal",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/OhhMyGehlee/et/refs/heads/main/er")
+    end
+})
+
+
+MainTab:CreateButton({
+    Name = "Sonic Speed Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Shadow 2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Shad/refs/heads/main/2")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Kaizen",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Kai/refs/heads/main/zen")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Universal Piece",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Piec/refs/heads/main/e")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Saga",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ga/refs/heads/main/ga")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "FireForce Reignition",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/fi/refs/heads/main/re")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Dungeon Heroes",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Roes/refs/heads/main/her")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Bgsi (Xeno & Others)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/tist/refs/heads/main/no")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Rangers X",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/yu/refs/heads/main/tu")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hunters",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ter/refs/heads/main/hint")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Kingdom Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/pil/refs/heads/main/ty")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Card Clash",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/cas/refs/heads/main/h")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Cavern Quest",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/cav/refs/heads/main/s")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Power",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/pow/refs/heads/main/er")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Spirits Journey",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/lo/refs/heads/main/so")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hollow Era",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/t/refs/heads/main/ips")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Geek",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/pa/refs/heads/main/pi")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Ninja Time",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ni/refs/heads/main/ni")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Steal Ice cream from Kids",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/L0stVeil/LocalScripts/refs/heads/main/1stL0st")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Wrestle Simulator",
+    Callback = function()
+        loadScript("https://api.luarmor.net/files/v3/loaders/49f02b0d8c1f60207c84ae76e12abc1e.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Pinoy Tower",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Pinoy-Tower-Slap-And-More-42881")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Super Soccer League",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Universal-Script-FreezeHub-18843")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "UGC Steal Points",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/UGC-Steal-Points-Kilaura-twister-game-free-ugc-41018")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Aura Craft",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Aura-Craft-RealHub-35051")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Steal a Baddie",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Steal-a-Baddie-UNBANNED-BEST-GUI-43356")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Mad City",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Mad-City-Mad-City-Auto-Rob-Airport-4581")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Bleeding Blades",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Bleeding-Blades-ALPHA-really-epic-script-6485")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Grow A Garden (KEYLESS)",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/shvl00/shvled/refs/heads/main/l04d3r.bf")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Grow A Garden (KEY SYSTEM)",
+    Callback = function()
+
+loadScript("https://api.luarmor.net/files/v3/loaders/d5ed1fbd4301b1d18d75153c5b47181d.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Arcane Conquest",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/arc/refs/heads/main/ane")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Fruit Reborn",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Fru/refs/heads/main/it")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Haikyuu Legends",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/vol/refs/heads/main/ball")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Jujutsu Infinite",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Infinite/refs/heads/main/All")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Elemental Dungeon",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/typo/main/ye")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Venture",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Ven/refs/heads/main/ture")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Rush",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Ru/refs/heads/main/sh")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Lootify",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Loo/refs/heads/main/t")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime MultiVerse",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Mul/refs/heads/main/ver")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Go Fishing",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Realms",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/rea/refs/heads/main/lms")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Avatar Fighting Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/av/refs/heads/main/tar")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Bullet Dungeon",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/bul/refs/heads/main/g")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Slayer Online",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sla/refs/heads/main/yer")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "WanderLands Dungeon RPG",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/wan/refs/heads/main/der")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Dungeon Quest",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Sol/refs/heads/main/DQ")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Shadow",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sha/refs/heads/main/dow")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "One Punch Fighters X",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/at/refs/heads/main/yt")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Revolution X",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Rev/refs/heads/main/X")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Pets Go",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/rel/refs/heads/main/el")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Chaos Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/AC/refs/heads/main/Mob")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Lost Souls",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/LSM/refs/heads/main/MSL")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Crawl",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Crw/refs/heads/main/Mobz")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Jujutsu Piece",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Mob/main/JJP")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Blast Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Blast/main/ns")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Demon Warriors",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/DWM/main/et")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Realm Rampage",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/RRM/main/Mob")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Power Evolution",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/AE/main/Same")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "[QUEST] Slime Slaying Online RPG",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/SL/main/Both")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Ascensions Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/AS3/main/Ex")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Weak Legacy 2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/W2/main/SW")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Switch",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/dswa/main/1")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Fabled Legacy",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/FLM/main/Mob")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Destiny Simulator 🎯",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/TY/main/Mob")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hunters Era 🧭",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/HE/main/SolaraMobile")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "[NEW] Anime Heroes Tycoon 🏰",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/892/main/AH")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Eat The World 🌍",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ETW/main/was")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Spin For Free Robux 💸",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/Spin-For-Free/main/b")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Cursed Area 🕳️",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sdawd6/main/90")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "AllBlox Battles 🧃",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ABB/main/Solara/Mobile")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Punching Simulator 2 👊",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/89/main/24")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "+1 Blade Slayer 🗡️",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/dsaw2/main/asdwa")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Speed Race 🏁",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/09op/main/kop2")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Egg Empire 🥚",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/yup/main/pire")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Horror RNG 😱",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/90po/main/kop90")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Roller Skate Racing",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sdwa56/main/jilo")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Jujutsu Shenanigans",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/657/main/kilo")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Magic RNG",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/jk2/main/dsa")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Reborn As SwordsMan",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sdaw/main/sdsa")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Fruit Seas",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/dsaw/main/asdwa")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Attack on Titan Revolution",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/ewq/main/sdw")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Anime Max",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/23s/main/sda")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Sword Legends Simulator",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/gdfhj/main/dsaty")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Rich RNG",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OhhMyGehlee/hgi/main/uiy")
+    end
+})
+
+local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main2Tab:CreateButton({
+    Name = "FE Touch Fling Gui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/LgZwZ7ZB")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "FE Invisibility Keybind",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/ec9fdd3e0c5daddd3fab4c979b036cd2/raw/c238c716b55b100b775ba26388c4a6e0b52e2e1e/Fe%2520Invisibility%2520Gui%2520Keybind")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Fly Gui V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Noclip Gui",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/f87a23b93d5b935b89c781ce9cea68b0/raw/8d7d5411a1669bdd72e4af414be682ec1b91d66d/Noclip%2520Gui")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Tp Tool",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Teleport-tool-7095"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Vehicle Fly",
+    Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20Fe%20Vehicle%20Fly%20GUI%20script'))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Calculator",
+    Callback = function()
+    
+loadstring(game:HttpGet("https://pastebin.com/raw/ZV9ZTwq6"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Arceus Aimbot Mobile",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "g00by Gui V8",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-G00by-GUI-v8-10301", true))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Invisible Mobile Scrip",
+    Callback = function()
+
+loadstring(game:HttpGet(('https://pastefy.app/'..'aV9OfBP4'..'/raw'),true))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Universal Skybox,Decal & Particles",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/xgSsjCLt"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Animation Gui [FE]",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/vezRxWTi"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Arosia Gui [FE]",
+    Callback = function()
+
+loadstring(Game:GetObjects("rbxassetid://1255908305")[1].Source)()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "AutoClicker Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Server Hop",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/5f76e62e22b285e966ef0c4a80a78ee7/raw/cbcfca3a0a895b6769b204c0397c5564e870b373/Server%2520Hop%2520Script")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Rejoin",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/f586ef696195d1ea0fd84ef061e0a1ec/raw/61936073bf083b1238282d990ae374d27995df98/Rejoin%2520Script")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Btools",
+    Callback = function()
+        
+local Player = game:GetService("Players").LocalPlayer
+local Mouse = Player:GetMouse()
+local CoreGui = game.CoreGui
+local Granted
+local Denied
+if not CoreGui:FindFirstChild("BtoolsGui") then
+function Hammer(Parent)
+local Tool = Instance.new("Tool", Parent)
+Tool.Name = "Hammer"
+Tool.TextureId = "http://www.roblox.com/asset/?id=18209589139"
+Tool.RequiresHandle = false
+Tool.Activated:Connect(function()
+local Target = Mouse.Target
+if Target then
+local Explode = Instance.new("Explosion", workspace)
+Explode.Position = Target.Position
+Explode.BlastRadius = 0
+Target:Destroy()
+end
+end)
+end
+function Activated(Backpack, Character)
+if not Backpack:FindFirstChild("Hammer") and not Character:FindFirstChild("Hammer") then
+local a,l = pcall(function()
+return Hammer(Backpack)
+end)
+if a then
+Granted:Play()
+print("Granted - Hammer(Backpack)")
+else
+Denied:Play()
+warn("Denied - Hammer(Backpack)")
+end
+else
+Denied:Play()
+warn("Denied")
+end
+end
+local ScreenGui = Instance.new("ScreenGui", CoreGui)
+ScreenGui.Name = "BtoolsGui"
+ScreenGui.ResetOnSpawn = false
+local ImageButton = Instance.new("ImageButton", ScreenGui)
+ImageButton.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageButton.Position = UDim2.fromScale(0.7, 0.7)
+ImageButton.Size = UDim2.fromScale(100, 100)
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BackgroundTransparency = 0.5
+ImageButton.Image = "http://www.roblox.com/asset/?id=112759613442135"
+ImageButton.Active = true
+ImageButton.Draggable = true
+ImageButton.MouseButton1Down:Connect(function()ImageButton.Size=UDim2.fromOffset(90, 90)end)
+ImageButton.MouseButton1Up:Connect(function()ImageButton.Size=UDim2.fromOffset(100, 100)end)
+ImageButton.MouseButton1Click:Connect(function()Activated(Player.Backpack, Player.Character)end)
+Instance.new("UICorner", ImageButton).CornerRadius = UDim.new(1, 0)
+task.spawn(function()
+wait()
+ImageButton.Size = UDim2.fromOffset(90, 90)
+wait()
+ImageButton.Size = UDim2.fromOffset(90, 90)
+wait()
+ImageButton.Size = UDim2.fromOffset(100, 100)
+end)
+task.spawn(function()
+Granted = Instance.new("Sound", CoreGui)
+Granted.SoundId = "rbxassetid://5563761507"
+Denied = Instance.new("Sound", CoreGui)
+Denied.SoundId = "rbxassetid://5563762077"
+end)
+print("BtoolsGui is Created")
+else
+warn("BtoolsGui is Here")
+end
+
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Dark Dex",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%25E2%259A%25A1%2520Infinite%2520Jump%2520Gui%2520%25E2%259A%25A1")
+    end
+})
+
+Main2Tab:CreateButton({
+    Name = "Yeet Gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-yeet-gui-47961"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Robanik Panel",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/Robanik-Panel-1.2/refs/heads/main/1.2"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Spectate Gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-spectate-GUI-chatgpt-made-48001"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Esp Gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-ESP-any-game-47981"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "r3 Gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/R3LIST/r3gui/main/main.lua"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "SSTICKDUD Gui",
+    Callback = function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/61301a7d73b79da32642cf9ef93b2437/raw/3dd135b6921c0b5cb91c04c624e193f7de8f7dfe/SSTICKDUD%2520GUI"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Astrava Gui [FE]",
+    Callback = function()
+
+loadstring(game:GetObjects("rbxassetid://1468845733")[1].Source)()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Egor",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DROID-cell-sys/ANTI-UTTP-SCRIPTT/refs/heads/main/EGOR%20SCRIPT%20BY%20ANTI-UTTP"))()
+
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Lua Land Executor",
+    Callback = function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/b37b1a417a73435e7262dddc0b84903c/raw/765ab79d0f120301d8ebe0bc804b9dabfa1040c2/Lua%2520Land%2520Hub%2520Executor%2520Script"))()
+
+   end
+})
+
+local Main3Tab = Window:CreateTab("ADMIN SCRIPTS", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main3Tab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nameless Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Reviz Admin",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/ibFPdiF7")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Cmd-X",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Legs Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Kohls Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Brick Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/un_AdminGUI")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Quirky Cmds (Some Games)",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-QuirkyCMD-FE-admin-8667")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Gaze Admin (Free Admin)",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/FREE-ADMIN-Gaze-Admin-Abuser-V2-38651")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Fates Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Console Line Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/NotAtomz/Atom-Scripts/refs/heads/main/ConsoleLine")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Dhelirium Admin (Use ; )",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Dhelann/Dhelirium/refs/heads/main/source.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Ak Admin",
+    Callback = function()
+        loadScript("https://angelical.me/ak.lua")
+    end
+})
+
+local Main3Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main3Tab:CreateButton({
+    Name = "Ghost Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "VirusPirusDirus Hub",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/InnocentViru/VirusPirusDirus-Script-Hub/refs/heads/main/VirusPirusDirus%20Script%20Hub")   
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Hive Hub",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/iamnotadingus/Hive-Hub/refs/heads/main/RELEASED",true)
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bypasser Hub",
+    Callback = function()
+  loadScript("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\105\86\103\118\120\72\65\34\41\41\40\41\59\10")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bandz HubV1",
+    Callback = function()
+   loadScript("https://pastebin.com/raw/nbnriwbq")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Perfect Hub",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/luwriy/Hub/refs/heads/main/Main")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Boundless Hub",
+    Callback = function()
+ loadScript("https://raw.githubusercontent.com/Wowspws/Boundless/refs/heads/main/Protected_5439528335744854.txt")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Lomu Hub",
+    Callback = function()
+ loadScript("https://raw.githubusercontent.com/Whoisgrace0/Main/main/LOL.lua",true)
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Lukas Hub",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/giogio11223/stogenhub/refs/heads/main/release",true)
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Desire Hub",
+    Callback = function()
+ loadScript("https://raw.githubusercontent.com/welomenchaina/Desire-s/refs/heads/main/desire%20hub%20rules",true)
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Shadow Hub",
+    Callback = function()
+ loadScript("https://raw.githubusercontent.com/TimShadow1/ShadowHUB/refs/heads/main/GAG.lua")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Forsakation Hub",
+    Callback = function()
+ loadScript("https://api.luarmor.net/files/v3/loaders/d1226ca454068d9251732f34884a375e.lua")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Syla Hub",
+    Callback = function()
+    loadScript("https://raw.githubusercontent.com/SylaHub/Syla-Hub/refs/heads/main/Loader")
+   end
+})
+
