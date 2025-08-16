@@ -37,6 +37,72 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
+    Name = "Azure Latch",
+    Callback = function()
+   loadScript("https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Invisible Hide & Seek",
+    Callback = function()
+    loadScript("https://raw.githubusercontent.com/KAJUU490/c29/refs/heads/main/jumapell_new")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Trap & Bait",
+    Callback = function()
+    loadScript("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Vox Seas",
+    Callback = function()
+   loadScript("https://raw.githubusercontent.com/OhhMyGehlee/vo/refs/heads/main/x")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Arise Shadow Hunt",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Free Draw",
+    Callback = function()
+
+   local Settings = {
+    SpamAmount = 40000, -- Amount of lines to spam
+    Radius = 100, -- Max radius of the random positions
+    Color = Color3.new(1,1,1), -- Color of the lines
+    Transparency = 0.9999, -- Transparency of the lines
+    Thickness = 0.05, -- Thickness of the lines
+    AntiLag = true -- It will delete all your art to prevent from lag
+}
+loadScript("https://raw.githubusercontent.com/NaikoScript/Simple-Good-Scripts/main/FreeDraw"))(Settings)
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Climb & Slide",
+    Callback = function()
+  loadScript("https://raw.githubusercontent.com/ecrxks273/climb-and-slide/refs/heads/main/climb%20and%20slide")
+    end
+})
+    
+MainTab:CreateButton({
+    Name = "Steal a K-Pop Demon Hunter",
+    Callback = function()
+
+loadScript("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua")
+    end
+})
+    
+MainTab:CreateButton({
     Name = "Bloxfruit",
     Callback = function()
 
@@ -1404,3 +1470,633 @@ Main3Tab:CreateButton({
    end
 })
 
+Main3Tab:CreateButton({
+    Name = "Script Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Pendulum Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Cat Hub V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Senpaigmx/CatHubV2/main/CatHubVisual.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Frozen Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/SyrTop/FroZenHub/main/V1/FroZenV1_LOADER.lua.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Redz Hub (Bloxfruit)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "DomainX Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/drakker33/rblx-decaying-winter/main/DecayingWinter.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V1.8",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/refs/heads/main/Bido%20Skins%20V2")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.3")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V5",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20SkinsV1.5")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V6",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.6")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V7",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.7")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V8",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bido Skins Hub V9",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.9")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Sky Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Simple Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GearV4/Simple-Hub-X-Gear-SSX.lua/main/Gear%20SSX%20X%20Simple%20Hub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nyx0Ls Hub V1",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Nyx0L/Spy-Hub-roblox-/refs/heads/main/source")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nyx0Ls Hub V2",
+    Callback = function()
+        setclipboard("https://discord.gg/aNvv3UnGKA")
+        Rayfield:Notify({
+            Title = "Nyx0Ls Hub V2",
+            Content = "🏝️KEY COPIED TO CLIPBOARD JOIN TO GET!🏝️",
+            Duration = 6
+        })
+        -- Insert fixed script link once available
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Void Hub",
+    Callback = function()
+        loadScript("https://voidhubwin.xyz/Script")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Void Hub V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "X Hub (Break In Game)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Bebo-Mods/XHub/main/HubLoader.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Dark Hub",
+    Callback = function()
+        loadScript("https://paste.ee/r/6nF...")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Ez Hub",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/2299b2823dd564a30807ddaa1875b311/raw/704fbe40e4ccc671e5dbc72cb9dab9b556f3c045/Ez%2520Hub%2520Script")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Skibidi Hub",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Universal-Script-Skibidi-Hub-Keyless-plus-100-games-39992")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "V Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/V31nc/2642/Created/VHub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "V.G Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Moon Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Owl Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "PurbleXploit Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/PurbleDev/PurbExploit-Hub/refs/heads/main/Main")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "000 Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/swanhtetm/797-Hub/refs/heads/main/000Hub%20Beta%20Fix.lua.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "System Hub V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/AHMEDPLPL/System-hub/main/System%20hub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "System Hub V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/AHMEDPLPL/System-hub-V3/refs/heads/main/System%20Hub%20V3")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Multi Scripter X V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "E Hub Universal",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/8DLG71RE"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Capy Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MSTTOPPER/Scripts/refs/heads/main/CapyHub"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Insanity.xyz Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jaysterrz/insanity.xyz/refs/heads/main/InsanityLoader.lua"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "f3x Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-cheezy2l-f3x-made-by-cheezly2l-and-g00byd0lan-and-tehpwnzer-10416", true))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "100+ Animation Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/47a075d24e008e76c9e7c0725f784504/raw/612f1193fa9ff29a8a8e7527c0a6aa79ae09b301/Eazvy%2520Hub%2520100+%2520Animation%2520Hub"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Zonor Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aronn5/zornor-hub/refs/heads/main/zornor.lua"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Seth Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXSethX/Hub-Scripts-/refs/heads/main/Hub"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Souls Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/SPQT6v5J"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "KGuestCheatsJ Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KGuestCheatsJReal/ComeBack/refs/heads/main/Universal"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Krt Hub V3",
+    Callback = function()
+
+loadstring(game:HttpGet("https://pastefy.app/qvHKHQRu/raw"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nova Hub",
+    Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/D3lt5/ukdow/refs/heads/main/OfficialNova'))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Lan Hub (Keyless)",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Wrate/LanHub/main/LanHubLoader"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Xeric Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xeric-rblx/Loader/refs/heads/main/Loader"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Galaxy Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GalaxyStudio646/Galaxy-Hub/refs/heads/main/Universal/GalaxyHub"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Acro Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Dan7anaan/2a43ab4365ee1de7aadef9d58800b00f/raw/ffa3d2bb91b9389139dd25ba3f40f33b13cd7fbf/gistfile1.txt"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Junix Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/junixaldrblxscripts/JunixHubScripts/refs/heads/main/main.lua"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "IdiotHub (Keyless)",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IdiotHub/Scripts/main/Loader"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Omen Hub",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mezzopera/Omen-Hub/main/omen_hub.lua"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Oasis Hub",
+    Callback = function()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/bruvzz/oasishub/main/script"))()
+
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Common Hub V1",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Niviana1/Personal-exploit-/main/Gui.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Game Hub V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Game Hub V4",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Game Hub V6",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Gigachad Hub V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V3")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Gigachad Hub V4",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Gigachad Hub V5",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Protected_3038811338432694.lua.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Gigachad Hub V6",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/LolPrivate/Side/main/Moonsec%20V3")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Gigachad Hub V7",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/LolPrivate/Side/main/Gigachad%20Hub%20V7.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Shakars Hub V1",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/shakar60/moonsecV3/main/bido.ty")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Shakars Hub V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/shakar60/Universal-Shakars/main/Hub%20Protected!")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Shakars Hub V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/shakar60/USH.P/main/rotected")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Many Hub",
+    Callback = function()
+        loadScript("https://paste.myconan.net/498978.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Multi Hub V2",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/EZ8CxDGr")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Multi Hub V3",
+    Callback = function()
+        local src = game:GetObjects("rbxassetid://1468845733")[1].Source
+        assert(loadstring(src))()
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Multi Hub V4",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/YVE4njap")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Express Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Theyfwdan/Theyfwdan/refs/heads/main/ExpressHubPaidVersion")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Express Hub V5",
+    Callback = function()
+        loadScript("https://api.luarmor.net/files/v3/loaders/d8824b23a4d9f2e0d62b4e69397d206b.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Angel Hub",
+    Callback = function()
+       
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Fentdealer47/angelshub/refs/heads/main/main.lua'))()
+
+   end
+})
+
+local Main4Tab = Window:CreateTab("TOOLS/GEARS SCRIPT", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main4Tab:CreateButton({
+    Name = "Sword 🗡️",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/r7TP8eqw")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Grab Knife 🔪",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753")
+    loadScript("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Tool Giver 🧰",
+    Callback = function()
+        loadScript("https://pastefy.app/qpbQo0lr/raw")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Gear Giver 🎮",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/Dhgnt7hi")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Get All Gears 🧲",
+    Callback = function()
+        loadScript("https://pastefy.app/VYIAk3o1/raw")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Gear Giver 2 ⚙️",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/AZVi2tuK")
+    end
+})
+
+local Main5Tab = Window:CreateTab("Backdoor Scanner", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main5Tab:CreateButton({
+    Name = "Lalol Hub",
+    Callback = function()
+
+loadScript("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script")
+   end
+}) 
+
+Main5Tab:CreateButton({
+    Name = "Rosys Backdoor Scanner",
+    Callback = function()
