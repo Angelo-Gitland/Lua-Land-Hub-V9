@@ -7,9 +7,9 @@ local Player = game.Players.LocalPlayer
 
 -- Made By Angelo! 👍
 local Window = Rayfield:CreateWindow({
-    Name = "🏝️Lua Land Hub V5🏝️", -- 🏆 Award icon in title
+    Name = "🏝️Lua Land Hub V6🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "Lua Land Hub Ultimate Loading...",
+    LoadingTitle = "A Multi Source Code🏝️",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -76,6 +76,48 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
+    Name = "Escape from painter (Version 1.4)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/AlanYTacmc/painterescape/refs/heads/main/PrinterEscape.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Build a plane",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Z1ntrax/bigmac/refs/heads/main/bap/bapobfuscated.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Build a scam empire",
+    Callback = function()
+        loadScript("https://avianhub.netlify.app/scripts/build-a-scam-empire.lua",true)
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Bridge Battles",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/gumanba/Scripts/main/BridgeBattles")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Colony Survival",
+    Callback = function()
+        loadScript("https://pastefy.app/nzWMAQcr/raw")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "[Reborn]Sonic.Exe: The Disaster",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/REBORN-Sonic.EXE:-The-Disaster-No-cooldown-working-not-skid-47105")
+    end
+})
+
+MainTab:CreateButton({
     Name = "Climb & Slide",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/ecrxks273/climb-and-slide/refs/heads/main/climb%20and%20slide")
@@ -107,6 +149,69 @@ MainTab:CreateButton({
     Name = "Toilet Tower Defense",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/LOLking123456/Toilet6/main/Tower5")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Pure Soccer",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/Benmuhammed7/bestpitchscripts/refs/heads/main/puresoccer')
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Impossible Glass Bridge 2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/rndmq/Serverlist/refs/heads/main/Loader")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "A Universal Time",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Sadesafk/seddiksisadickhead/main/AUTWAVESCRIPT")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Generic Roleplay game",
+    Callback = function()
+        loadScript(string.reverse("aul.niam/70eeddaa551659bfd0f449877c63a0eddfe71370/war/4fb5f8f061ea1d9aa0827e029c1e9efd/gnimagdahcagemo/moc.tnetnocresubuhtig.tsig//:sptth")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Get Hit By A Car Simulator",
+    Callback = function()
+        loadScript("https://theo1.xyz/scripts/gethitbyacarsim.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Obby But You're A Poop",
+    Callback = function()
+        loadScript("https://github.com/KhSaeed90/Roblox/raw/workspace/6254599969")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Untitled Boxing Game",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/pid4k/scripts/refs/heads/main/untitledboxinggame.lua', true)
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Untitled Tag Game",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/3RfB693z",true)
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Climb & Slide",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/ecrxks273/climb-and-slide/refs/heads/main/climb%20and%20slide")
     end
 })
 
@@ -1215,6 +1320,7 @@ Main2Tab:CreateButton({
    end
 })
 
+
 Main2Tab:CreateButton({
     Name = "Robanik Panel",
     Callback = function()
@@ -1249,6 +1355,77 @@ Main2Tab:CreateButton({
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/61301a7d73b79da32642cf9ef93b2437/raw/3dd135b6921c0b5cb91c04c624e193f7de8f7dfe/SSTICKDUD%2520GUI")
    end
 })
+
+Main2Tab:CreateButton({
+    Name = "Flashback V2",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Flashback-v2-49361")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "H4ckBo 111 Executor",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-H4CKBO111-Clan-Executor-GUI-2025-V1-49258")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Fe Player Gui",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-FE-Player-Gui-49357")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Bluu Gui (Key:YesltSucks)",
+    Callback = function()
+        loadScript('https://pastebin.com/raw/FXQYimBf', true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Blue Scripts Admin Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/Pum5XFN2")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Roblox Menu V1.0",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/sqVT0CPU")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "CostamJhol Menu V1 (Work Pc)",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/sdb9hv7K", true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "c00lkidd Injector (Client)",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/zDMMKKnZ")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "c00lkidd Clan Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Fearless Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/abbasmeesam569-netizen/FEARLESS-GUI/refs/heads/main/FEARLESS GUI BY MEESAM")
+   end
+})
+
 Main2Tab:CreateButton({
     Name = "Join & Leave Logger",
     Callback = function()
@@ -1260,6 +1437,20 @@ Main2Tab:CreateButton({
     Name = "Egor",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/DROID-cell-sys/ANTI-UTTP-SCRIPTT/refs/heads/main/EGOR%20SCRIPT%20BY%20ANTI-UTTP")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "As Executor",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/X3GXiRAi")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Electron Ui Remake",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Electron-UI-Remake-13807")
    end
 })
 
@@ -1478,6 +1669,8 @@ Main3Tab:CreateButton({
    end
 })
 
+
+
 Main3Tab:CreateButton({
     Name = "Shadow Hub",
     Callback = function()
@@ -1601,6 +1794,90 @@ Main3Tab:CreateButton({
     Name = "Sky Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Simon Sprunki Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/kGLBK1Qy")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Syndicate Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/Lee1FF4M")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nebula X Script Hub",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/HubLoader/NebulaX/refs/heads/main/L')
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Skull Hub",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua')
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Brainrot Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BrainrotHub.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Veno Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/totallynothimplayz/Jd/refs/heads/main/Veno%20Hub", true)
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Devin Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/motonik-heldoaxxyy/DevinHub/refs/heads/main/main.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Copy Hub",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-CopyHub-V1-46396")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Cya Studios Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/PHGS971/CYA-STUDIOS-HUB/refs/heads/main/Protected_6060392852409113.lua.txt")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "BloxHub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/ArtChivegroup/Roblox/refs/heads/main/script/Bloxhub-v1-1.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Morf0S Script Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/formidy/morfOS/refs/heads/main/main.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Killa Hub",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Real-Futbol-24-MAJOR-UPDATE-Best-Script-for-RF-Free-32212")
     end
 })
 
