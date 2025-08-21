@@ -2423,6 +2423,8 @@ Main5Tab:CreateButton({
     Name = "Fe Shapeshifter (R6)",
     Callback = function()
         loadScript("https://pastefy.app/2C3cRXXp/raw")
+    end
+})
 
 Main5Tab:CreateButton({
     Name = "Fe Vereus",
