@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer
 local Window = Rayfield:CreateWindow({
     Name = "🏝️Lua Land Hub V6🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "Loading...",
+    LoadingTitle = "A Multi Code Source",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -2319,7 +2319,7 @@ Main4Tab:CreateButton({
     end
 })
 
-local Main5Tab = Window:CreateTab("Backdoor Scanner", 4483362458)
+local Main5Tab = Window:CreateTab("Fe Scripts", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -2336,34 +2336,174 @@ local function loadScript(url)
 end
 
 Main5Tab:CreateButton({
+    Name = "Fe Animation Player R6/R15",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/shakk-code/fe-animation-player/refs/heads/main/script.lua', true)
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Kamui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/PF0q1vDQ")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Wally West (For Baseplate Game)",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/XQZ-official/XQZscripts/refs/heads/main/WallyWest.txt')
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Walk On Walls",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Walk-on-Walls-Or-ceilings-1469")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Katana Npc Script (R6)",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/NTNHKeMZ", true)
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Caducus (Require Reanimation)",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/XJeBNe0s")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe HamsterBall",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/KaterHub-Inc/scripts/refs/heads/main/unofficial-Projects/FEHamsterBall.lua")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Zero Gravity",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/zerogravity")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe BlackHole",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Sukuna (Strongest BattleGrounds)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Scp 096 Shy Guy",
+    Callback = function()
+        loadScript("https://pastefy.app/YsJgITXR/raw")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Zombie (R15)",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/0GUbHyeH")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Shapeshifter (R6)",
+    Callback = function()
+        loadScript("https://pastefy.app/2C3cRXXp/raw")
+
+Main5Tab:CreateButton({
+    Name = "Fe Vereus",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/fRbemiRf")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Project Troll",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/2UcwgDS1")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Scripts",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/HtPpnF2t")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Krib",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/764mn70q")
+    end
+})
+
+Main5Tab:CreateButton({
+    Name = "Fe Krib Troll Gui (Update)",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/wDVr7Pqx")
+    end
+})
+
+local Main6Tab = Window:CreateTab("Backdoor Scanner", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main6Tab:CreateButton({
     Name = "Lalol Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script")
    end
 })
 
-Main5Tab:CreateButton({
+Main6Tab:CreateButton({
     Name = "Rosys Backdoor",
     Callback = function()
         loadScript("https://pastebin.com/raw/dptQMT9x")
    end
 })
 
-Main5Tab:CreateButton({
+Main6Tab:CreateButton({
     Name = "Backdoor Scanner SS",
     Callback = function()
         loadScript("https://protected-roblox-scripts.onrender.com/e199278d9c668d20a456f327c7045641")
    end
 })
 
-Main5Tab:CreateButton({
+Main6Tab:CreateButton({
     Name = "Jalon's Backdoor Scanner",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/jLn0n/scripts/main/backdoor-executor/backdoor-executor.lua")
    end
 })
 
-Main5Tab:CreateButton({
+Main6Tab:CreateButton({
     Name = "Saturn",
     Callback = function()
         loadScript("https://pastefy.app/8NyW2mEZ/raw", true)
