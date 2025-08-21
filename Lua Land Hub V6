@@ -1421,7 +1421,7 @@ Main2Tab:CreateButton({
 Main2Tab:CreateButton({
     Name = "Fearless Gui",
     Callback = function()
-        loadScript("https://raw.githubusercontent.com/abbasmeesam569-netizen/FEARLESS-GUI/refs/heads/main/FEARLESS GUI BY MEESAM")
+        loadScript("https://raw.githubusercontent.com/abbasmeesam569-netizen/FEARLESS-GUI/refs/heads/main/FEARLESS%20GUI%20BY%20MEESAM")
    end
 })
 
@@ -1473,7 +1473,6 @@ Main2Tab:CreateButton({
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/0c3598c755723f355930ca7f50f3b92e/raw/a842122006f51c411d1265d7b9fb0a49bbb00fcf/Lua%2520Land%2520Hub%2520%257C%2520Gravity%2520Changer%25F0%259F%25AB%25B0")
    end
 })
-
 
 local Main3Tab = Window:CreateTab("ADMIN SCRIPTS", 4483362458)
 
