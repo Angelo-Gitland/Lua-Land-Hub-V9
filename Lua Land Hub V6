@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer
 local Window = Rayfield:CreateWindow({
     Name = "🏝️Lua Land Hub V6🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "A Multi Source Code🏝️",
+    LoadingTitle = "Loading...",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
 
 local MainTab = Window:CreateTab("SCRIPT GAMES", 4483362458)
 
--- 🧩 Safe Loader I dont Func
+-- 🧩 Safe Loader
 local function loadScript(url)
     local ok, err = pcall(function()
         local src = game:HttpGet(url)
@@ -111,7 +111,7 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "[Reborn]Sonic.Exe: The Disaster",
+    Name = "Sonic.Exe The Disaster",
     Callback = function()
         loadScript("https://rawscripts.net/raw/REBORN-Sonic.EXE:-The-Disaster-No-cooldown-working-not-skid-47105")
     end
@@ -170,13 +170,6 @@ MainTab:CreateButton({
     Name = "A Universal Time",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Sadesafk/seddiksisadickhead/main/AUTWAVESCRIPT")
-    end
-})
-
-MainTab:CreateButton({
-    Name = "Generic Roleplay game",
-    Callback = function()
-        loadScript(string.reverse("aul.niam/70eeddaa551659bfd0f449877c63a0eddfe71370/war/4fb5f8f061ea1d9aa0827e029c1e9efd/gnimagdahcagemo/moc.tnetnocresubuhtig.tsig//:sptth")
     end
 })
 
@@ -431,7 +424,6 @@ MainTab:CreateButton({
         loadScript("https://raw.githubusercontent.com/OhhMyGehlee/et/refs/heads/main/er")
     end
 })
-
 
 MainTab:CreateButton({
     Name = "Sonic Speed Simulator",
@@ -1419,13 +1411,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Fearless Gui",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/abbasmeesam569-netizen/FEARLESS-GUI/refs/heads/main/FEARLESS%20GUI%20BY%20MEESAM")
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Join & Leave Logger",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/7e32e5df7da6ea2a4aa8c72f57f577cc/raw/370c65f9c8307baab057fb/%F0%9F%8F%9D%EF%B8%8FLua%2520Land%2520Gui%2520%257C%2520Join%2520%26%2520Leave%2520Logger%F0%9F%8F%9D%EF%B8%8F")
@@ -1626,7 +1611,7 @@ Main3Tab:CreateButton({
 })
 
 Main3Tab:CreateButton({
-    Name = "Bandz HubV1",
+    Name = "Bandz Hub V1",
     Callback = function()
         loadScript("https://pastebin.com/raw/nbnriwbq")
    end
