@@ -1163,8 +1163,11 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "c00lkidd Gui",
+    Name = "c00lkidd Gui V1 By Lua land",
     Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/77177417c1265a79fe2587ff20f9b0b3/raw/67ae5242bf701c0a4a3c82bf14780232da87b688/c00lkidd%2520Gui%2520V1")
+   end
+})
 
 Main2Tab:CreateButton({
     Name = "Vehicle Fly",
