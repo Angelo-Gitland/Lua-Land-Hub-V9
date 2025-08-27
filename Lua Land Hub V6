@@ -1142,11 +1142,29 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Tp Tool",
+    Name = "Clown Kidnapper",
     Callback = function()
-        loadScript("https://rawscripts.net/raw/Universal-Script-Teleport-tool-7095")
+       loadScript('https://pastebin.com/raw/vP2D2vnC') 
    end
 })
+
+Main2Tab:CreateButton({
+    Name = "sw4mp m0nster Gui",
+    Callback = function()
+        loadScript("https://pastefy.app/2tC7nRAK/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Its Rain a taco!",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/Yx05z4L5")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "c00lkidd Gui",
+    Callback = function()
 
 Main2Tab:CreateButton({
     Name = "Vehicle Fly",
