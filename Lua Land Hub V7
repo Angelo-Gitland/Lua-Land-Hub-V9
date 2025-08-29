@@ -1480,6 +1480,16 @@ Main2Tab:CreateButton({
    end
 })
 
+Main2Tab:CreateButton({
+    Name = "Free Gamepass (Works in low security abandoned games)",
+    Callback = function()
+
+getgenv().Color = "default" --[[white,black, brown,green,cyan,blue,pink,purple,red,yellow,orange ]]--
+getgenv().TextColor = "default" --[[ rgb,white,black, brown,green,cyan,blue,pink,purple,red,yellow,orange ]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rndmq/Serverlist/refs/heads/main/Server87")
+   end
+})
+
 local Main3Tab = Window:CreateTab("ADMIN SCRIPTS", 4483362458)
 
 local function loadScript(url)
@@ -1833,6 +1843,159 @@ Main3Tab:CreateButton({
         loadScript("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BrainrotHub.lua")
     end
 })
+
+Main3Tab:CreateButton({
+    Name = "Nuke Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Soso Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/ENdSVrMC")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Mr Joe Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/vWVB9V8A")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Trz Hub V2",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/yCGKeQvg")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Ruix Hub V1.0.1",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/yutrKkHc")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Project Null Hub V2",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/yXZyDeNa")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Ligma Hub",
+    Callback = function.()
+        loadScript("https://pastebin.com/raw/78eT27jp")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Ever Hub V2",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/f0iZ4RrH")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Rtd Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/K4A19zzM")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Astral Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/NMChzqSd")
+   end
+})
+
+Main3Tab:CreateButton({
+    Name = "Cosmic Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/GEspyzyP")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Exploit Central V1",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/W4UP2Xec")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "James Hub",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/jajasmd/James-Universal-hub/refs/heads/main/James%20Universal%20Hub')
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "BlueX Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EN.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "ScreepiterBlox Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/ixKZN2HQ")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Sus Hub",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Fe-sus-hub-27442")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Raito Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "By Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/x8aFphSu")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "R4ff1 Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/TeM9ukzy")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Fps Kill Hub",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/X1RtRNm8")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nahh Hub Remake",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/ELBvHJbi")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Brainrot Hub",
+    Callback = function()
+
+
 
 Main3Tab:CreateButton({
     Name = "Veno Hub",
