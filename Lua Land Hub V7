@@ -1998,8 +1998,9 @@ Main3Tab:CreateButton({
 Main3Tab:CreateButton({
     Name = "Brainrot Hub",
     Callback = function()
-
-
+        loadScript("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BrainrotHub.lua")
+    end
+})
 
 Main3Tab:CreateButton({
     Name = "Veno Hub",
