@@ -1166,7 +1166,14 @@ MainTab:CreateButton({
         loadScript("https://raw.githubusercontent.com/MajestySkie/list/refs/heads/main/games")
     end
 })
-xz ZX,'xxx
+
+MainTab:CreateButton({
+    Name = "Homeless Life",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Kaitofyp/Homeless-Life/refs/heads/main/Protected_2532435062657291.lua.txt")
+    end
+})
+
 local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
@@ -1974,6 +1981,13 @@ Main2Tab:CreateButton({
     Name = "Gravity Changer Gui",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/0c3598c755723f355930ca7f50f3b92e/raw/a842122006f51c411d1265d7b9fb0a49bbb00fcf/Lua%2520Land%2520Hub%2520%257C%2520Gravity%2520Changer%25F0%259F%25AB%25B0")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Universal Trail Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land")
    end
 })
 
