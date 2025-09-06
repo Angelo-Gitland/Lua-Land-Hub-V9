@@ -1537,13 +1537,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Rc7 By 00de0l (Pass: 00de0l)",
-    Callback = function()
-        loadScript("https://pastefy.app/QNFO1zLn/raw",true)
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Epic Serverside",
     Callback = function()
         loadScript("https://pastebin.com/CPpT7UzM")
@@ -1565,9 +1558,121 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Super Super Duper Private Gui by c00lkidd",
+    Name = "Private Gui By Sigmaz",
     Callback = function()
-        loadScript("https://raw.githubusercontent.com/danialjdjsj/Jsksowjsbsiwiwbsisjwjddiodjebsbsisnebejnsbsueiwhsbdwjssbdikwsjbshdisjskwnsbdjsuiss/refs/heads/main/Sjejeushshsjsjshdjsjebdudihdhdjekehesihdeueisjhshsusjsjwj")
+        loadScript("https://raw.githubusercontent.com/danialjdjsj/Private-gui-by-sigmaz/refs/heads/main/Private%20gui%20by%20sigmaz%20very%20very%20private%20mew%20hub%20sigma%20gyat%20tuzz")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Private Anonymous",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/RobloxScriptsBackups/Yaya/refs/heads/main/private%20gui%20back%20after%20orion%20library%20dead%20official.txt")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Sigma Gui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/eMakNZg0")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Dreamybull Gui",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-FE-Bypass-idk-32121")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Sf Executor",
+    Callback = function()
+        loadScript("https://pastefy.app/xj9lkBIv/raw", true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Secret Service Panel",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Secret-Service-panel-9623")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Polaria",
+    Callback = function()
+        loadScript("https://pastefy.app/agqEB2qs/raw",true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "HeadHammer Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/HeadHammer-Gui-/refs/heads/main/headhamm")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "T0pk3k",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/i-topk3k-test-29602")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Gui By Trywayyyytoohard",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/8LS7GbXm")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Two Brothers Gui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/1sRPZUvM")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "MateoSS",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/MateoSS/refs/heads/main/MateoSS%20Idk%20If%20Fe")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Private Gui By fu*k Team",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Private-gui-by-duck-team-50561")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Normal Private Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/normal-private-Gui/refs/heads/main/normal%20private%20Gui")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Snoop Dogg",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/Snoop-Dogg-/refs/heads/main/Snoop%20Dogg")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "c0dr5x5 Gui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/XNAy2jzD")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "John doe Gui",
+    Callback = function()
+        loadScript("https://scriptblox.com/raw/Universal-Script-john-doe-gui-12026")
    end
 })
 
