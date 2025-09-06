@@ -7,9 +7,9 @@ local Player = game.Players.LocalPlayer
 
 -- Made By Angelo! 👍
 local Window = Rayfield:CreateWindow({
-    Name = "🏝️Lua Land Hub V6🏝️", -- 🏆 Award icon in title
+    Name = "🏝️Lua Land Hub V7🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "A Multi Code Source",
+    LoadingTitle = "A Multi Source Code",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -1341,6 +1341,69 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
+    Name = "Ck6Gui",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/CK6GUI/refs/heads/main/CK6GUI")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Fearless SS Executor (Backdoor Game Only)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/synkixr/FEARLESS-GUI/refs/heads/main/fearless-ss-executer")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Project LuaCore",
+    Callback = function()
+        loadScript("https://pastefy.app/dbld5bKT/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "g00fyb3ta Gui",
+    Callback = function()
+        loadScripr("https://pastebin.com/raw/vk9AAuNB")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "c00lM00n Gui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/uEjnMktX")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Raindrop Cloud",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/PEWnKhnd")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Control Npc",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty38.lua")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "MLG Wings",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/YyFbEMkE")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Spider",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/XNVWznPH")
+   end
+})
+
+Main2Tab:CreateButton({
     Name = "Spectate Gui",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-spectate-GUI-chatgpt-made-48001")
@@ -1846,6 +1909,83 @@ Main3Tab:CreateButton({
     Callback = function()
         loadScript("https://pastebin.com/raw/NMChzqSd")
    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Duzet Hub [BETA]",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/YSjx3VzZ")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Yunuslo1545 Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/yunus154524/YunusLo1545-HUB/refs/heads/main/YunusLo1545%20HUB")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "KrWare Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/KRWareHub/KRWare/refs/heads/main/KRWare%20Hub%20Loader.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "WakWare Hub",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Francesco2018-bot/5450f750e9c6ceafef6afd7c2cd1f6d0/raw/52a77aee1d3caa89ab87942a191f58f9e65b44f1/Wakeware.lua", true)
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Crypt Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/CHnamedata/CryptHubNew/main/Crypt_Hub_Loader.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "ThunderHub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/NAVAAI098/Thunder-Hub/main/Loader.lua")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Arab Hub",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/a78a1e8c994bbd7a1c3cc10f1913c7a9/raw/f8771f39a6257b7edfe9a667da349330643807c9/Arab%2520Hub")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Celestial Hub V1",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/g4F6LwRy")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Private Hub",
+    Callback = function()
+        loadScript("https://pastes.io/raw/private-53")
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Bypasser Hub",
+    Callback = function()
+        loadScript('https://pastefy.app/vSEBm78u/raw')
+    end
+})
+
+Main3Tab:CreateButton({
+    Name = "Nuke Hub",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader")
+    end
 })
 
 Main3Tab:CreateButton({
