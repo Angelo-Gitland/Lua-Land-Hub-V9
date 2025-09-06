@@ -1364,7 +1364,7 @@ Main2Tab:CreateButton({
 Main2Tab:CreateButton({
     Name = "g00fyb3ta Gui",
     Callback = function()
-        loadScripr("https://pastebin.com/raw/vk9AAuNB")
+        loadScript("https://pastebin.com/raw/vk9AAuNB")
    end
 })
 
