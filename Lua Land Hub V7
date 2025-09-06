@@ -1034,6 +1034,62 @@ MainTab:CreateButton({
     end
 })
 
+MainTab:CreateButton({
+    Name = "Pirate Mayhem [BETA]",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Wrate/PirateMayhem/refs/heads/main/MainLoader")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Steal time from others and be the best",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/hightpix/nyaitsanisan/refs/heads/main/LqU961S.txt")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Quietville [HORROR]",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Quietville-HORROR-Quirtville-HORROR-MOBLIE-FRIENDLY-UI-50575")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Brick Classic Out",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/BRICK-CLASSIC-out-BRICK-CL*IC-OP-ADMIN-50571")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Troll Gear Tower",
+    Callback = function()
+        loadScript("https://pastefy.app/bWM5vOQU/raw")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "The Biggest Cup in roblox!",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/The-Biggest-Cup-in-Roblox!-inf-money-50573")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "The king border game",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/THE-KING-bordr-gam-bordr-gam-free-choco-50566")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Zombie Attack",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/freshdotmp3/Fresh-s-Script/refs/heads/main/Zombie%20Attack.lua")
+    end
+})
+
 local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
