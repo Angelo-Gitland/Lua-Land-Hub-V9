@@ -1594,13 +1594,6 @@ Main3Tab:CreateButton({
     end
 })
 
-Main3Tab:CreateButton({
-    Name = "Plasma Admin",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/jj123llol/sex-admin/refs/heads/main/Plasma%20Admin%20free",true)
-    end
-})
-
 local Main3Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
 
 local function loadScript(url)
@@ -1845,69 +1838,6 @@ Main3Tab:CreateButton({
     Name = "Brainrot Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BrainrotHub.lua")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Nuke Hub",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Soso Hub",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/ENdSVrMC")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Mr Joe Hub",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/vWVB9V8A")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Trz Hub V2",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/yCGKeQvg")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Ruix Hub V1.0.1",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/yutrKkHc")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Project Null Hub V2",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/yXZyDeNa")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Ligma Hub",
-    Callback = function.()
-        loadScript("https://pastebin.com/raw/78eT27jp")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Ever Hub V2",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/f0iZ4RrH")
-    end
-})
-
-Main3Tab:CreateButton({
-    Name = "Rtd Hub",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/K4A19zzM")
     end
 })
 
@@ -2930,14 +2860,14 @@ Raw By: ❣️ Angelo's Scripts (YOUTUBE) ❣️
 🏝️ Join Our Community 🏝️  
 Click the button below to copy the server link and connect with us!
 
-🔗 Discord Link: [https://discord.gg/RxcX9DExUE]
+🔗 Discord Link: [https://discord.gg/wWP3wqH4M4]
 ]]
 })
 
 CreditsTab:CreateButton({
     Name = "🏝️ COPY DISCORD LINK 🏝️",
     Callback = function()
-        setclipboard("https://discord.gg/RxcX9DExUE")
+        setclipboard("https://discord.gg/wWP3wqH4M4")
         Rayfield:Notify({
             Title = "📋 Copied!",
             Content = "🏝️COPIED TO CLIPBOARD!🏝️",
