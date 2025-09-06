@@ -1397,9 +1397,198 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
+    Name = "MLG Gun",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Client-Replication-the-ss-loadstring-script-27393")
+   end
+})
+
+Main2Tab:CreateButton({
     Name = "Spider",
     Callback = function()
         loadScript("https://pastebin.com/raw/XNVWznPH")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Zombie",
+    Callback = function()
+        loadScript('https://pastefy.app/w7KnPY70/raw'),true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Items Prison Life",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/AZVi2tuK")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Xester",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Prison-Life-Xester-18937")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Assasin",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/vf9Tq1mY")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Rc7 Cloud",
+    Callback = function()
+        loadScript("https://pastefy.app/veRlpuMC/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Nebula Star",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/j09BnGB3")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "D1ck Gun",
+    Callback = function()
+        loadScript("https://pastefy.app/Tq7G80Tr/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Thomas the dank engine",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Icalock/Server/refs/heads/main/Thomas%20The%20Dank%20Engine.txt")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Thomas the dank engine remake",
+    Callback = function()
+        loadScript("https://pastefy.app/jTvSKOGh/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Big Smoke",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/refs/heads/main/%5BRecharacter%5D%20Big%20Smoke")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Bomb Vest V1",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/refs/heads/main/%5BRecharacter%5D%20Bomb%20Vest")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Bomb Vest V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/ProBypasserHax1/Ussjzbwusbdlq/refs/heads/main/Luafile33Xc3eww")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Demon Gun Tencacle Killer",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/TEST19983/Assigment/refs/heads/main/Assignment")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Titan",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/TEST19983/Reslasjd/refs/heads/main/attac")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Lua Hammer",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Steve",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/9vxQ22F1")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Robot Machine",
+    Callback = function()
+        loadScript("https://pastefy.app/ur8n4dc6/raw",true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Obama Jumpscare",
+    Callback = function()
+        loadScript("https://pastefy.app/ORe0fQ07/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Dominant Executor",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Project Lua",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-Project-Lua-Inspired-by-Project-Ligma-26224")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "g00byd0lan Executor",
+    Callback = function()
+        loadScript("https://pastefy.app/LgKOzHYy/raw")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Rc7 By 00de0l (Pass: 00de0l)",
+    Callback = function()
+        loadScript("https://pastefy.app/QNFO1zLn/raw",true)
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Epic Serverside",
+    Callback = function()
+        loadScript("https://pastebin.com/CPpT7UzM")
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Lua",
+    Callback = function()
+        loadScript('https://pastebin.com/raw/HTBxzUaq')
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "SadRc7",
+    Callback = function()
+        loadScript('https://pastebin.com/raw/Gf5qPQbV')
+   end
+})
+
+Main2Tab:CreateButton({
+    Name = "Super Super Duper Private Gui by c00lkidd",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/danialjdjsj/Jsksowjsbsiwiwbsisjwjddiodjebsbsisnebejnsbsueiwhsbdwjssbdikwsjbshdisjskwnsbdjsuiss/refs/heads/main/Sjejeushshsjsjshdjsjebdudihdhdjekehesihdeueisjhshsusjsjwj")
    end
 })
 
