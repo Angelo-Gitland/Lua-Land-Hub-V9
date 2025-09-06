@@ -1006,6 +1006,34 @@ MainTab:CreateButton({
     end
 })
 
+MainTab:CreateButton({
+    Name = "Create a Factory",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Create-a-Factory-Create-a-Factory-Give-Cosmic-Orb-50590")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Camo Troll tower",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/marcelosero7-cyber/Algolhub/refs/heads/main/Camoslap")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "D: Revitalized",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/D:-Revitalized-Spam-Screenshake-Script-50588")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hamood Habibi Tower",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/ArceusXArchivezx/Game/refs/heads/main/ArceusXArchive")
+    end
+})
+
 local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
