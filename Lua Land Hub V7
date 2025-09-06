@@ -1411,13 +1411,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Zombie",
-    Callback = function()
-        loadScript('https://pastefy.app/w7KnPY70/raw'),true)
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Items Prison Life",
     Callback = function()
         loadScript("https://pastebin.com/raw/AZVi2tuK")
@@ -1467,13 +1460,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Thomas the dank engine remake",
-    Callback = function()
-        loadScript("https://pastefy.app/jTvSKOGh/raw")
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Big Smoke",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/refs/heads/main/%5BRecharacter%5D%20Big%20Smoke")
@@ -1519,13 +1505,6 @@ Main2Tab:CreateButton({
     Name = "Steve",
     Callback = function()
         loadScript("https://pastebin.com/raw/9vxQ22F1")
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Robot Machine",
-    Callback = function()
-        loadScript("https://pastefy.app/ur8n4dc6/raw",true)
    end
 })
 
@@ -2706,13 +2685,6 @@ Main3Tab:CreateButton({
     Name = "Angel Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/Fentdealer47/angelshub/refs/heads/main/main.lua')
-   end
-})
-
-Main3Tab:CreateButton({
-    Name = "Nuke Hub",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader")
    end
 })
 
