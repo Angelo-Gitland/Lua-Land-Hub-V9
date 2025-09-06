@@ -1090,6 +1090,83 @@ MainTab:CreateButton({
     end
 })
 
+MainTab:CreateButton({
+    Name = "Street Fight",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/hp6x/Street-Fight-Script-by-hp6x/refs/heads/main/Street%20Fight%20Script%20by%20hp6x.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Trident Survival",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/48kk/Load/refs/heads/main/Main.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Treasure Hint simulator",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Treasure-Hunt-Simulator-AutoFarm-1373")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "The Dunk Murderer X",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/VGXMODPLAYER68/VGXMOD-REBORN/refs/heads/main/Vgxmod%20X%20Dunk%20Murderer%20X%20.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Konoha Mount",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/AlfanNP/XlineCreator/refs/heads/main/MountKonoha1.txt")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Money Simulator Ultimate",
+    Callback = function()
+        loadScript("https://pastefy.app/MUL24ZGM/raw")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "One Block",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/JustKondzio0010/oneblock/refs/heads/main/Easy")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Pure Soccer",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/Benmuhammed7/bestpitchscripts/refs/heads/main/puresoccer')
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Swordburst 2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/noobscripter38493/Swordburst-2/main/script.lua")
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hire a fisher",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ')
+    end
+})
+
+MainTab:CreateButton({
+    Name = "Hunty Zombie",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/MajestySkie/list/refs/heads/main/games")
+    end
+})
+xz ZX,'xxx
 local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
