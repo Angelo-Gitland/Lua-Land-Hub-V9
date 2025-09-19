@@ -7,9 +7,9 @@ local Player = game.Players.LocalPlayer
 
 -- Made By Angelo! 👍
 local Window = Rayfield:CreateWindow({
-    Name = "🏝️Lua Land Hub V7🏝️", -- 🏆 Award icon in title
+    Name = "🏝️Lua Land Hub V8🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "A Multi Source Code",
+    LoadingTitle = "A Better Script All Time",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -1174,7 +1174,37 @@ MainTab:CreateButton({
     end
 })
 
-local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
+local Main7Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main7Tab:CreateButton({
+    Name = "c00lkidd Gui V1",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V1/refs/heads/main/c00lkidd%20Gui%20V1")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "c00lkidd Gui V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V2/refs/heads/main/c00lkidd%20Gui%20v2%20Script")
+    end
+})
+
+local Main3Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -1327,13 +1357,6 @@ Main2Tab:CreateButton({
     Name = "Its Rain a taco!",
     Callback = function()
         loadScript("https://pastebin.com/raw/Yx05z4L5")
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "c00lkidd Gui V1 By Lua land",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/77177417c1265a79fe2587ff20f9b0b3/raw/67ae5242bf701c0a4a3c82bf14780232da87b688/c00lkidd%2520Gui%2520V1")
    end
 })
 
@@ -1579,13 +1602,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Items Prison Life",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/AZVi2tuK")
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Xester",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Prison-Life-Xester-18937")
@@ -1687,13 +1703,6 @@ Main2Tab:CreateButton({
     Name = "Dominant Executor",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479")
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Project Lua",
-    Callback = function()
-        loadScript("https://rawscripts.net/raw/Universal-Script-Project-Lua-Inspired-by-Project-Ligma-26224")
    end
 })
 
@@ -1936,13 +1945,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Join & Leave Logger",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/7e32e5df7da6ea2a4aa8c72f57f577cc/raw/370c65f9c8307baab057fb/%F0%9F%8F%9D%EF%B8%8FLua%2520Land%2520Gui%2520%257C%2520Join%2520%26%2520Leave%2520Logger%F0%9F%8F%9D%EF%B8%8F")
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Egor",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/DROID-cell-sys/ANTI-UTTP-SCRIPTT/refs/heads/main/EGOR%20SCRIPT%20BY%20ANTI-UTTP")
@@ -1990,22 +1992,6 @@ Main2Tab:CreateButton({
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land")
    end
 })
-
-local Main3Tab = Window:CreateTab("ADMIN SCRIPTS", 4483362458)
-
-local function loadScript(url)
-    local success, response = pcall(function()
-        local src = game:HttpGet(url)
-        assert(loadstring(src))()
-    end)
-    if not success then
-        Rayfield:Notify({
-            Title = "Script Error",
-            Content = tostring(response),
-            Duration = 6
-        })
-    end
-end
 
 Main3Tab:CreateButton({
     Name = "Infinite Yield",
