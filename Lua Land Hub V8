@@ -1,4 +1,3 @@
-3
 -- 🌴 Lua Land Hub The Best Script.Lol
 local Rayfield = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
@@ -1327,13 +1326,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Walk On Walls",
-    Callback = function()
-        loadScript("https://rawscripts.net/raw/Universal-Script-Walk-on-Walls-Or-ceilings-1469")
-   end
-})
-
-Main2Tab:CreateButton({
     Name = "Animation GuiV2 (R15)",
     Callback = function()
         loadScript("https://pastebin.com/raw/1nJD7PkH",true)
@@ -1568,13 +1560,6 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Infinite Jump",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%25E2%259A%25A1%2520Infinite%2520Jump%2520Gui%2520%25E2%259A%25A1")
-    end
-})
-
-Main2Tab:CreateButton({
     Name = "Yeet Gui",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-yeet-gui-47961")
@@ -1799,21 +1784,7 @@ Main2Tab:CreateButton({
 })
 
 Main2Tab:CreateButton({
-    Name = "Sigma Gui",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/eMakNZg0")
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Dreamybull Gui",
-    Callback = function()
-        loadScript("https://rawscripts.net/raw/Universal-Script-FE-Bypass-idk-32121")
-   end
-})
-
-Main2Tab:CreateButton({
-    Name = "Sf Executor",
+    Name = "SF Executor",
     Callback = function()
         loadScript("https://pastefy.app/xj9lkBIv/raw", true)
    end
