@@ -1,4 +1,4 @@
- -- 🌴 Lua Land Hub The Best Script.Lol
+-- 🌴 Lua Land Hub The Best Script.Lol
 local Rayfield = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
 ))()
@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer
 local Window = Rayfield:CreateWindow({
     Name = "🏝️Lua Land Hub V8🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "A Better Script All Time",
+    LoadingTitle = "Legend 😈",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -1174,7 +1174,7 @@ MainTab:CreateButton({
     end
 })
 
-local Main3Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
+local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -1886,9 +1886,7 @@ Main2Tab:CreateButton({
    end
 })
 
-
-
-Main3Tab = Window:CreateTabMain7Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
+local Main3Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -1904,91 +1902,91 @@ local function loadScript(url)
     end
 end
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "c00lkidd Gui V1",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V1/refs/heads/main/c00lkidd%20Gui%20V1")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "c00lkidd Gui V2",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V2/refs/heads/main/c00lkidd%20Gui%20v2%20Script")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "c00lkidd Gui V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-By-Lua-Land/refs/heads/main/c00l%20Gui%20By%20Lua%20Land")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "c00lkidd Executor",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/23f5d42e680644f651ff011d604ad1a4/raw/000e0a02cc25c5d23c597beb68944657aca14727/c00lkidd%20executor"))()
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Billboard Gui",
     Callback = function()
         loadScript("https://pastebin.com/raw/7FeCFurr")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Fe Fling Gui (Sorry We Fix the bug soon)",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/feFlingGuiByLuaLandNoCrash/refs/heads/main/Fling%20Gui%20No%20Crash")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Lua Land Executor",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/b37b1a417a73435e7262dddc0b84903c/raw/765ab79d0f120301d8ebe0bc804b9dabfa1040c2/Lua%20Land%20Hub%20Executor%20Script")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Infinite Jump",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%E2%9A%A1%20Infinite%20Jump%20Gui%20%E2%9A%A1")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Speed Changer Gui",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/25481b2953cc51b0dd7d8339c53f5c1d/raw/89fa7652f12d35a93b0d5303740086bc66ed6a1d/Lua%20Land%20Gui%20Speed%20Changer")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Gravity Changer Gui",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/0c3598c755723f355930ca7f50f3b92e/raw/a842122006f51c411d1265d7b9fb0a49bbb00fcf/Lua%20Land%20Hub%20%7C%20Gravity%20Changer%F0%9F%AB%B0")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Universal Trail",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land")
     end
 })
 
-Main7Tab:CreateButton({
+Main3Tab:CreateButton({
     Name = "Backdoor Executor",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Angelo-Gitland/LuaLandBackdoorExecutor/refs/heads/main/Lua%20Land%20Executor%20Backdoor")
     end
 })
 
-Main3Tab = Window:CreateTabMain7Tab = Window:CreateTab("ADMIN", 4483362458)
+local Main4Tab = Window:CreateTab("ADMIN", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -2004,105 +2002,105 @@ local function loadScript(url)
     end
 end
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Infinite Yield",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Nameless Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Reviz Admin",
     Callback = function()
         loadScript("https://pastebin.com/raw/ibFPdiF7")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Cmd-X",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Legs Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Kohls Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Brick Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/un_AdminGUI")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Quirky Cmds (Some Games)",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-QuirkyCMD-FE-admin-8667")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Gaze Admin (Free Admin)",
     Callback = function()
         loadScript("https://rawscripts.net/raw/FREE-ADMIN-Gaze-Admin-Abuser-V2-38651")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Fates Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Console Line Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/NotAtomz/Atom-Scripts/refs/heads/main/ConsoleLine")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Dhelirium Admin (Use ; )",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Dhelann/Dhelirium/refs/heads/main/source.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Ak Admin",
     Callback = function()
         loadScript("https://angelical.me/ak.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Old Cmd Bar",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/Unkn0wnKnown/Old-CMD-Bar-ReMake/refs/heads/main/CMD%20Bar%20ReMake')
     end
 })
 
-local Main3Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
+local Main5Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -2118,21 +2116,21 @@ local function loadScript(url)
     end
 end
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ghost Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "VirusPirusDirus Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/InnocentViru/VirusPirusDirus-Script-Hub/refs/heads/main/VirusPirusDirus%20Script%20Hub")   
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Hive Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/iamnotadingus/Hive-Hub/refs/heads/main/RELEASED",true)
