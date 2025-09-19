@@ -3439,6 +3439,7 @@ Click the button below to copy the server link and connect with us!
 ]]
 })
 
+-- Main Community Button
 CreditsTab:CreateButton({
     Name = "🏝️ COPY DISCORD LINK 🏝️",
     Callback = function()
@@ -3446,6 +3447,44 @@ CreditsTab:CreateButton({
         Rayfield:Notify({
             Title = "📋 Copied!",
             Content = "🏝️COPIED TO CLIPBOARD!🏝️",
+            Duration = 6
+        })
+    end
+})
+
+-- Eric's Scripts Title
+CreditsTab:CreateParagraph({
+    Title = "🔺Eric's Scripts🔻",
+    Content = ""
+})
+
+-- Eric's Scripts Button
+CreditsTab:CreateButton({
+    Name = "🔺COPY DISCORD LINK🔻",
+    Callback = function()
+        setclipboard("https://discord.gg/hZAYtTZ5Yr")
+        Rayfield:Notify({
+            Title = "📋 Copied!",
+            Content = "🔺COPIED TO CLIPBOARD!🔻",
+            Duration = 6
+        })
+    end
+})
+
+-- BaconDaGoofyCreator's Hub Title
+CreditsTab:CreateParagraph({
+    Title = "🥓BaconDaGoofyCreator's Hub🥓",
+    Content = ""
+})
+
+-- BaconDaGoofyCreator's Button
+CreditsTab:CreateButton({
+    Name = "🥓COPY DISCORD LINK🥓",
+    Callback = function()
+        setclipboard("https://discord.gg/nwas3hz4PK")
+        Rayfield:Notify({
+            Title = "📋 Copied!",
+            Content = "🥓COPIED TO CLIPBOARD!🥓",
             Duration = 6
         })
     end
