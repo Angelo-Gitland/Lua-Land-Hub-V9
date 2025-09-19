@@ -1,4 +1,4 @@
--- 🌴 Lua Land Hub The Best Script.Lol
+ -- 🌴 Lua Land Hub The Best Script.Lol
 local Rayfield = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
 ))()
@@ -1174,106 +1174,6 @@ MainTab:CreateButton({
     end
 })
 
-Main7Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
-
-local function loadScript(url)
-    local success, response = pcall(function()
-        local src = game:HttpGet(url)
-        assert(loadstring(src))()
-    end)
-    if not success then
-        Rayfield:Notify({
-            Title = "Script Error",
-            Content = tostring(response),
-            Duration = 6
-        })
-    end
-end
-
-Main7Tab:CreateButton({
-    Name = "c00lkidd Gui V1",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V1/refs/heads/main/c00lkidd%20Gui%20V1")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "c00lkidd Gui V2",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V2/refs/heads/main/c00lkidd%20Gui%20v2%20Script")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "c00lkidd Gui V3",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-By-Lua-Land/refs/heads/main/c00l%20Gui%20By%20Lua%20Land")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "c00lkidd Executor",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/23f5d42e680644f651ff011d604ad1a4/raw/000e0a02cc25c5d23c597beb68944657aca14727/c00lkidd%20executor"))()
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Billboard Gui",
-    Callback = function()
-        loadScript("https://pastebin.com/raw/7FeCFurr")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Fe Fling Gui (Sorry We Fix the bug soon)",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/feFlingGuiByLuaLandNoCrash/refs/heads/main/Fling%20Gui%20No%20Crash")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Lua Land Executor",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/b37b1a417a73435e7262dddc0b84903c/raw/765ab79d0f120301d8ebe0bc804b9dabfa1040c2/Lua%20Land%20Hub%20Executor%20Script")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Infinite Jump",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%E2%9A%A1%20Infinite%20Jump%20Gui%20%E2%9A%A1")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Speed Changer Gui",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/25481b2953cc51b0dd7d8339c53f5c1d/raw/89fa7652f12d35a93b0d5303740086bc66ed6a1d/Lua%20Land%20Gui%20Speed%20Changer")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Gravity Changer Gui",
-    Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/0c3598c755723f355930ca7f50f3b92e/raw/a842122006f51c411d1265d7b9fb0a49bbb00fcf/Lua%20Land%20Hub%20%7C%20Gravity%20Changer%F0%9F%AB%B0")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Universal Trail",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land")
-    end
-})
-
-Main7Tab:CreateButton({
-    Name = "Backdoor Executor",
-    Callback = function()
-        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/LuaLandBackdoorExecutor/refs/heads/main/Lua%20Land%20Executor%20Backdoor")
-    end
-})
-
 local Main3Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
@@ -1986,7 +1886,109 @@ Main2Tab:CreateButton({
    end
 })
 
-Main3Tab = Window:CreateTab("ADMIN SCRIPTSX.N", 4483362458)
+
+
+Main3Tab = Window:CreateTabMain7Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
+
+local function loadScript(url)
+    local success, response = pcall(function()
+        local src = game:HttpGet(url)
+        assert(loadstring(src))()
+    end)
+    if not success then
+        Rayfield:Notify({
+            Title = "Script Error",
+            Content = tostring(response),
+            Duration = 6
+        })
+    end
+end
+
+Main7Tab:CreateButton({
+    Name = "c00lkidd Gui V1",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V1/refs/heads/main/c00lkidd%20Gui%20V1")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "c00lkidd Gui V2",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-V2/refs/heads/main/c00lkidd%20Gui%20v2%20Script")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "c00lkidd Gui V3",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-By-Lua-Land/refs/heads/main/c00l%20Gui%20By%20Lua%20Land")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "c00lkidd Executor",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/23f5d42e680644f651ff011d604ad1a4/raw/000e0a02cc25c5d23c597beb68944657aca14727/c00lkidd%20executor"))()
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Billboard Gui",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/7FeCFurr")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Fe Fling Gui (Sorry We Fix the bug soon)",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/feFlingGuiByLuaLandNoCrash/refs/heads/main/Fling%20Gui%20No%20Crash")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Lua Land Executor",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/b37b1a417a73435e7262dddc0b84903c/raw/765ab79d0f120301d8ebe0bc804b9dabfa1040c2/Lua%20Land%20Hub%20Executor%20Script")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/45bd8a7a3f4c1428ae9df90c011b29a6/raw/9ca0b8f09904dedb51a316a98800b25415d548b2/%E2%9A%A1%20Infinite%20Jump%20Gui%20%E2%9A%A1")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Speed Changer Gui",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/25481b2953cc51b0dd7d8339c53f5c1d/raw/89fa7652f12d35a93b0d5303740086bc66ed6a1d/Lua%20Land%20Gui%20Speed%20Changer")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Gravity Changer Gui",
+    Callback = function()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/0c3598c755723f355930ca7f50f3b92e/raw/a842122006f51c411d1265d7b9fb0a49bbb00fcf/Lua%20Land%20Hub%20%7C%20Gravity%20Changer%F0%9F%AB%B0")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Universal Trail",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land")
+    end
+})
+
+Main7Tab:CreateButton({
+    Name = "Backdoor Executor",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/Angelo-Gitland/LuaLandBackdoorExecutor/refs/heads/main/Lua%20Land%20Executor%20Backdoor")
+    end
+})
+
+Main3Tab = Window:CreateTabMain7Tab = Window:CreateTab("ADMIN", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -3422,16 +3424,13 @@ local CreditsTab = Window:CreateTab("CREDITS/SUPPORT", 4483362458)
 local CreditsParagraph = CreditsTab:CreateParagraph({
     Title = "❣️ Credits & Appreciation ❣️",
     Content = [[
-Script Made By: ❣️ Angelo's Scripts (YOUTUBE) ❣️
+Script Made By: ❣️ Angelo's Scripts (LLH LUA LAND) ❣️
 Tester: ❣️ Eric_3337 (YOUTUBE) ❣️
-Helper: ❣️ Bromzekie ❣️
-Raw By: ❣️ Angelo's Scripts (YOUTUBE) ❣️
 
 ❣️ Big Thanks ❣️
-@Eric_3337 (YOUTUBE) 🏝️
-@Bromzekie 🏝️
-@CrazyChessScript (YOUTUBE) 🏝️
-@James (YOUTUBE) 🏝️
+@Eric_3337 🏝️
+@CrazyChessScript 🏝️
+@BaconDaGoofyCreator 🥓
 
 🏝️ Join Our Community 🏝️  
 Click the button below to copy the server link and connect with us!
