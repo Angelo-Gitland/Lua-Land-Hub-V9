@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer
 local Window = Rayfield:CreateWindow({
     Name = "🏝️Lua Land Hub V8🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "A Better Script All Time",
+    LoadingTitle = "Greatings!",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
@@ -2100,7 +2100,7 @@ Main4Tab:CreateButton({
     end
 })
 
-local Main3Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
+local Main5Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -2116,469 +2116,469 @@ local function loadScript(url)
     end
 end
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ghost Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "VirusPirusDirus Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/InnocentViru/VirusPirusDirus-Script-Hub/refs/heads/main/VirusPirusDirus%20Script%20Hub")   
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Hive Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/iamnotadingus/Hive-Hub/refs/heads/main/RELEASED",true)
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bypasser Hub",
     Callback = function()
         loadScript("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\52\105\86\103\118\120\72\65\34\41\41\40\41\59\10")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bandz Hub V1",
     Callback = function()
         loadScript("https://pastebin.com/raw/nbnriwbq")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Perfect Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/luwriy/Hub/refs/heads/main/Main")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Boundless Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Wowspws/Boundless/refs/heads/main/Protected_5439528335744854.txt")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Lomu Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Whoisgrace0/Main/main/LOL.lua",true)
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Lukas Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/giogio11223/stogenhub/refs/heads/main/release",true)
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Desire Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/welomenchaina/Desire-s/refs/heads/main/desire%20hub%20rules",true)
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Shadow Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/TimShadow1/ShadowHUB/refs/heads/main/GAG.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Forsakation Hub",
     Callback = function()
         loadScript("https://api.luarmor.net/files/v3/loaders/d1226ca454068d9251732f34884a375e.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Syla Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/SylaHub/Syla-Hub/refs/heads/main/Loader")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Script Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Pendulum Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Cat Hub V2",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Senpaigmx/CatHubV2/main/CatHubVisual.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Frozen Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/SyrTop/FroZenHub/main/V1/FroZenV1_LOADER.lua.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Redz Hub (Bloxfruit)",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "DomainX Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/drakker33/rblx-decaying-winter/main/DecayingWinter.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V1.8",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V2",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/refs/heads/main/Bido%20Skins%20V2")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.3")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V5",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20SkinsV1.5")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V6",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.6")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V7",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.7")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V8",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bido Skins Hub V9",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.9")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Sky Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Simon Sprunki Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/kGLBK1Qy")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Syndicate Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/Lee1FF4M")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nebula X Script Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/HubLoader/NebulaX/refs/heads/main/L')
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Skull Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua')
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Brainrot Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BrainrotHub.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Astral Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/NMChzqSd")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Duzet Hub [BETA]",
     Callback = function()
         loadScript("https://pastebin.com/raw/YSjx3VzZ")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Yunuslo1545 Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/yunus154524/YunusLo1545-HUB/refs/heads/main/YunusLo1545%20HUB")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "KrWare Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/KRWareHub/KRWare/refs/heads/main/KRWare%20Hub%20Loader.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "WakWare Hub",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Francesco2018-bot/5450f750e9c6ceafef6afd7c2cd1f6d0/raw/52a77aee1d3caa89ab87942a191f58f9e65b44f1/Wakeware.lua", true)
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Crypt Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/CHnamedata/CryptHubNew/main/Crypt_Hub_Loader.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "ThunderHub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/NAVAAI098/Thunder-Hub/main/Loader.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Arab Hub",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/a78a1e8c994bbd7a1c3cc10f1913c7a9/raw/f8771f39a6257b7edfe9a667da349330643807c9/Arab%2520Hub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Celestial Hub V1",
     Callback = function()
         loadScript("https://pastebin.com/raw/g4F6LwRy")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Private Hub",
     Callback = function()
         loadScript("https://pastes.io/raw/private-53")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Bypasser Hub",
     Callback = function()
         loadScript('https://pastefy.app/vSEBm78u/raw')
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nuke Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Cosmic Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/GEspyzyP")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Exploit Central V1",
     Callback = function()
         loadScript("https://pastebin.com/raw/W4UP2Xec")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "James Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/jajasmd/James-Universal-hub/refs/heads/main/James%20Universal%20Hub')
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "BlueX Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EN.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "ScreepiterBlox Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/ixKZN2HQ")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Sus Hub",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-Fe-sus-hub-27442")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Raito Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "By Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/x8aFphSu")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "R4ff1 Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/TeM9ukzy")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Fps Kill Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/X1RtRNm8")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nahh Hub Remake",
     Callback = function()
         loadScript("https://pastebin.com/raw/ELBvHJbi")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Brainrot Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BrainrotHub.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Veno Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/totallynothimplayz/Jd/refs/heads/main/Veno%20Hub", true)
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Devin Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/motonik-heldoaxxyy/DevinHub/refs/heads/main/main.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Copy Hub",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-CopyHub-V1-46396")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Cya Studios Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/PHGS971/CYA-STUDIOS-HUB/refs/heads/main/Protected_6060392852409113.lua.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "BloxHub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/ArtChivegroup/Roblox/refs/heads/main/script/Bloxhub-v1-1.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Morf0S Script Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/formidy/morfOS/refs/heads/main/main.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Killa Hub",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Real-Futbol-24-MAJOR-UPDATE-Best-Script-for-RF-Free-32212")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Simple Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GearV4/Simple-Hub-X-Gear-SSX.lua/main/Gear%20SSX%20X%20Simple%20Hub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nyx0Ls Hub V1",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Nyx0L/Spy-Hub-roblox-/refs/heads/main/source")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nyx0Ls Hub V2",
     Callback = function()
         setclipboard("https://discord.gg/aNvv3UnGKA")
@@ -2591,343 +2591,343 @@ Main3Tab:CreateButton({
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Void Hub",
     Callback = function()
         loadScript("https://voidhubwin.xyz/Script")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Void Hub V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "X Hub (Break In Game)",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Bebo-Mods/XHub/main/HubLoader.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Dark Hub",
     Callback = function()
         loadScript("https://paste.ee/r/6nF...")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ez Hub",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/2299b2823dd564a30807ddaa1875b311/raw/704fbe40e4ccc671e5dbc72cb9dab9b556f3c045/Ez%2520Hub%2520Script")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Skibidi Hub",
     Callback = function()
         loadScript("https://scriptblox.com/raw/Universal-Script-Skibidi-Hub-Keyless-plus-100-games-39992")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "V Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/V31nc/2642/Created/VHub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "V.G Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Moon Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Owl Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "PurbleXploit Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/PurbleDev/PurbExploit-Hub/refs/heads/main/Main")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "000 Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/swanhtetm/797-Hub/refs/heads/main/000Hub%20Beta%20Fix.lua.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "System Hub V2",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/AHMEDPLPL/System-hub/main/System%20hub")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "System Hub V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/AHMEDPLPL/System-hub-V3/refs/heads/main/System%20Hub%20V3")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Multi Scripter X V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "E Hub Universal",
     Callback = function()
         loadScript("https://pastebin.com/raw/8DLG71RE")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Capy Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/MSTTOPPER/Scripts/refs/heads/main/CapyHub")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Insanity.xyz Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/jaysterrz/insanity.xyz/refs/heads/main/InsanityLoader.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "f3x Hub",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-cheezy2l-f3x-made-by-cheezly2l-and-g00byd0lan-and-tehpwnzer-10416", true)
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "100+ Animation Hub",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Angelo-Gitland/47a075d24e008e76c9e7c0725f784504/raw/612f1193fa9ff29a8a8e7527c0a6aa79ae09b301/Eazvy%2520Hub%2520100+%2520Animation%2520Hub")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Zonor Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/aronn5/zornor-hub/refs/heads/main/zornor.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Seth Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/TheXSethX/Hub-Scripts-/refs/heads/main/Hub")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Souls Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/SPQT6v5J")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "KGuestCheatsJ Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/KGuestCheatsJReal/ComeBack/refs/heads/main/Universal")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Krt Hub V3",
     Callback = function()
         loadScript("https://pastefy.app/qvHKHQRu/raw")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nova Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/D3lt5/ukdow/refs/heads/main/OfficialNova')
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Lan Hub (Keyless)",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Wrate/LanHub/main/LanHubLoader")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Xeric Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/xeric-rblx/Loader/refs/heads/main/Loader")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Galaxy Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GalaxyStudio646/Galaxy-Hub/refs/heads/main/Universal/GalaxyHub")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Acro Hub",
     Callback = function()
         loadScript("https://gist.githubusercontent.com/Dan7anaan/2a43ab4365ee1de7aadef9d58800b00f/raw/ffa3d2bb91b9389139dd25ba3f40f33b13cd7fbf/gistfile1.txt")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Junix Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/junixaldrblxscripts/JunixHubScripts/refs/heads/main/main.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "IdiotHub (Keyless)",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/IdiotHub/Scripts/main/Loader")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Omen Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/mezzopera/Omen-Hub/main/omen_hub.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Oasis Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/bruvzz/oasishub/main/script")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Common Hub V1",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Niviana1/Personal-exploit-/main/Gui.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Game Hub V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Game Hub V4",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Game Hub V6",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Gigachad Hub V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V3")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Gigachad Hub V4",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Gigachad Hub V5",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Protected_3038811338432694.lua.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Gigachad Hub V6",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/LolPrivate/Side/main/Moonsec%20V3")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Gigachad Hub V7",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/LolPrivate/Side/main/Gigachad%20Hub%20V7.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Shakars Hub V1",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/shakar60/moonsecV3/main/bido.ty")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Shakars Hub V2",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/shakar60/Universal-Shakars/main/Hub%20Protected!")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Shakars Hub V3",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/shakar60/USH.P/main/rotected")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Many Hub",
     Callback = function()
         loadScript("https://paste.myconan.net/498978.txt")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Multi Hub V2",
     Callback = function()
         loadScript("https://pastebin.com/raw/EZ8CxDGr")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Multi Hub V3",
     Callback = function()
         local src = game:GetObjects("rbxassetid://1468845733")[1].Source
@@ -2935,231 +2935,231 @@ Main3Tab:CreateButton({
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Multi Hub V4",
     Callback = function()
         loadScript("https://pastebin.com/raw/YVE4njap")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Express Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Theyfwdan/Theyfwdan/refs/heads/main/ExpressHubPaidVersion")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Express Hub V5",
     Callback = function()
         loadScript("https://api.luarmor.net/files/v3/loaders/d8824b23a4d9f2e0d62b4e69397d206b.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Angel Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/Fentdealer47/angelshub/refs/heads/main/main.lua')
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Soso Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/ENdSVrMC")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Mr Joe Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/vWVB9V8A")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Trz Hub V2",
     Callback = function()
         loadScript("https://pastebin.com/raw/yCGKeQvg")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ruix Hub V1.0.1",
     Callback = function()
         loadScript("https://pastebin.com/raw/yutrKkHc")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Project Null Hub V2",
     Callback = function()
         loadScript("https://pastebin.com/raw/yXZyDeNa")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ligma Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/78eT27jp")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ever Hub V2",
     Callback = function()
         loadScript("https://pastebin.com/raw/f0iZ4RrH")
     end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Rtd Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/K4A19zzM")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Astral Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/NMChzqSd")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Cosmic Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/GEspyzyP")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Exploit Central V1",
     Callback = function()
         loadScript("https://pastebin.com/raw/W4UP2Xec")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "james Hub",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/jajasmd/James-Universal-hub/refs/heads/main/James%20Universal%20Hub')
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "BlueX Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EN.lua")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "ScreepiterBlox Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/ixKZN2HQ")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Sus Hub",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-Fe-sus-hub-27442")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Raito Hub",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "By Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/x8aFphSu")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "R4ff1 Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/TeM9ukzy")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Fps Kill Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/X1RtRNm8")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Nahh Hub Remake",
     Callback = function()
         loadScript("https://pastebin.com/raw/ELBvHJbi")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Github Hacks Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/sXqmiBtT")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Roblox Crazy Hub V1",
     Callback = function()
         loadScript('https://pastebin.com/raw/tMmQCbty')
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Zenon Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/1tbFdtpc")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Rubi Script Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/8U9HK6NH")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "JBV Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/BRn28fXz")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Roblox Center Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/Y6aqX5L1")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Shen Hub",
     Callback = function()
         loadScript("https://pastebin.com/raw/T9anksLp")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Kaan Hub V2.15",
     Callback = function()
         loadScript("https://pastebin.com/raw/dfUNUshy")
    end
 })
 
-Main3Tab:CreateButton({
+Main5Tab:CreateButton({
     Name = "Ultimate Skid Hub V1",
     Callback = function()
         loadScript("https://pastefy.app/jgZt6Pth/raw")
