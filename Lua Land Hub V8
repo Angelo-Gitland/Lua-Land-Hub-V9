@@ -1,4 +1,4 @@
- -- 🌴 Lua Land Hub The Best Script.Lol
+-- 🌴 Lua Land Hub The Best Script.Lol
 local Rayfield = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"
 ))()
@@ -1174,7 +1174,7 @@ MainTab:CreateButton({
     end
 })
 
-local Main3Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
+local Main2Tab = Window:CreateTab("UNIVERSAL SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -1986,7 +1986,7 @@ Main3Tab:CreateButton({
     end
 })
 
-Main3Tab = Window:CreateTabMain7Tab = Window:CreateTab("ADMIN", 4483362458)
+local Main4Tab = Window:CreateTab("ADMIN", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -2002,98 +2002,98 @@ local function loadScript(url)
     end
 end
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Infinite Yield",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Nameless Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Reviz Admin",
     Callback = function()
         loadScript("https://pastebin.com/raw/ibFPdiF7")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Cmd-X",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Legs Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Kohls Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Brick Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/un_AdminGUI")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Quirky Cmds (Some Games)",
     Callback = function()
         loadScript("https://rawscripts.net/raw/Universal-Script-QuirkyCMD-FE-admin-8667")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Gaze Admin (Free Admin)",
     Callback = function()
         loadScript("https://rawscripts.net/raw/FREE-ADMIN-Gaze-Admin-Abuser-V2-38651")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Fates Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Console Line Admin",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/NotAtomz/Atom-Scripts/refs/heads/main/ConsoleLine")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Dhelirium Admin (Use ; )",
     Callback = function()
         loadScript("https://raw.githubusercontent.com/Dhelann/Dhelirium/refs/heads/main/source.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Ak Admin",
     Callback = function()
         loadScript("https://angelical.me/ak.lua")
     end
 })
 
-Main3Tab:CreateButton({
+Main4Tab:CreateButton({
     Name = "Old Cmd Bar",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/Unkn0wnKnown/Old-CMD-Bar-ReMake/refs/heads/main/CMD%20Bar%20ReMake')
