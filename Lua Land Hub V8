@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer
 local Window = Rayfield:CreateWindow({
     Name = "🏝️Lua Land Hub V8🏝️", -- 🏆 Award icon in title
     Icon = "award", -- Shows trophy badge in topbar
-    LoadingTitle = "Greatings!",
+    LoadingTitle = "Greetings!",
     LoadingSubtitle = "By: ❣️Angelo's Scripts (YOUTUBE)❣️",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
