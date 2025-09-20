@@ -1886,7 +1886,7 @@ Main2Tab:CreateButton({
    end
 })
 
-Main3Tab = Window:CreateTabMain7Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
+local Main3Tab = Window:CreateTab("LUA LAND SCRIPTS", 4483362458)
 
 local function loadScript(url)
     local success, response = pcall(function()
@@ -1926,7 +1926,7 @@ Main3Tab:CreateButton({
 Main3Tab:CreateButton({
     Name = "c00lkidd Executor",
     Callback = function()
-        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/23f5d42e680644f651ff011d604ad1a4/raw/000e0a02cc25c5d23c597beb68944657aca14727/c00lkidd%20executor"))()
+        loadScript("https://gist.githubusercontent.com/Angelo-Gitland/23f5d42e680644f651ff011d604ad1a4/raw/000e0a02cc25c5d23c597beb68944657aca14727/c00lkidd%20executor")
     end
 })
 
@@ -2097,6 +2097,13 @@ Main4Tab:CreateButton({
     Name = "Old Cmd Bar",
     Callback = function()
         loadScript('https://raw.githubusercontent.com/Unkn0wnKnown/Old-CMD-Bar-ReMake/refs/heads/main/CMD%20Bar%20ReMake')
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Loaf's Admin",
+    Callback = function()
+        loadScript("https://pastebin.com/raw/7n8JLrkK")
     end
 })
 
