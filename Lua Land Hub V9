@@ -2121,6 +2121,55 @@ Main4Tab:CreateButton({
     end
 })
 
+Main4Tab:CreateButton({
+    Name = "Proton Admin",
+    Callback = function()
+        loadScript("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd926764d064e2c60a3b.lua")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Comet Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/FilteringEnabled/FE/main/Comet")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Fedora Admin",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/alexx1212/fedoratoomutch/main/toomucth')
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "iOrb thingy Admin",
+    Callback = function()
+        loadScript("https://rawscripts.net/raw/Universal-Script-IOrb-thingy-42143")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Improve's Admin",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/proximitise/keysystems/refs/heads/main/adminkeysys.lua")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Deem Admin [BETA]",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/neatdevs/Deem-Admin/refs/heads/main/admin.lua")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Catalog Heaven Admin",
+    Callback = function()
+        loadScript("https://pastebin.com/ftdLpbCg",true)
+    end
+})
+
 local Main5Tab = Window:CreateTab("HUBS SCRIPTS", 4483362458)
 
 local function loadScript(url)
