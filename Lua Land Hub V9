@@ -2185,6 +2185,20 @@ Main4Tab:CreateButton({
 })
 
 Main4Tab:CreateButton({
+    Name = "Lxte Cmds",
+    Callback = function()
+        loadScript("https://raw.githubusercontent.com/lxte/cmd/main/testing-main.lua")
+    end
+})
+
+Main4Tab:CreateButton({
+    Name = "Op Admin (Private)",
+    Callback = function()
+        loadScript('https://raw.githubusercontent.com/addihallstar/opadminsupreme/refs/heads/main/opadmin_new.lua')
+    end
+})
+
+Main4Tab:CreateButton({
     Name = "Ak Admin",
     Callback = function()
         loadScript("https://angelical.me/ak.lua")
